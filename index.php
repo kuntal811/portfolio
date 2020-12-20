@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta lang="en">
+	<meta name="theme-color" content="#c00ef2">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title></title>
 	<meta name="description" content="">

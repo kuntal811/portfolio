@@ -20,7 +20,7 @@
   	$('header').css("background",$color);
 
   });
-/*
+
 // Particle
 tsParticles
   .loadJSON("programming-language-particles", "http://localhost/portfolio/portfolio1/assets/particles.json")
@@ -34,4 +34,3 @@ tsParticles
 const particles = tsParticles.domItem(0);
 particles.play();
 particles.pause();
-*/
