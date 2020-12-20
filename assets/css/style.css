@@ -164,6 +164,7 @@ header{
 	.profile-photo-1{
 	position: static;
 	transform: none;
+	margin-top: 30px;
 	}
 }
 .profile-photo-1 img{
