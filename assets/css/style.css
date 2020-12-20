@@ -153,11 +153,18 @@ header{
 	padding-right: 15px;
 }
 }
+
 .profile-photo-1{
 	position: absolute;
 	top: 80%;
 	left: 50%;
 	transform: translate(-50%,-50%);
+}
+@media (max-width:992px){
+	.profile-photo-1{
+	position: static;
+	transform: none;
+	}
 }
 .profile-photo-1 img{
 	display: block;
@@ -165,7 +172,7 @@ header{
 	width: 180px;
 	border-radius: 50%;
 	border: 10px solid #fff;
-	margin: 0 auto;
+	margin: 10px auto;
 	box-shadow: 2px 2px 12px 0px rgba(0,0,0,0.4);
 }
 #programming-language-particles{
