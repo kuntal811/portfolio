@@ -258,8 +258,14 @@ height: auto;
 }
 .card{
 	background: linear-gradient(-45deg,#18C8F0,#E815F4) !important;
-	box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.2)
+	box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.2);
+	transition: all 0.5s;
 }
+.card:hover{
+	background: linear-gradient(-45deg,#18C8F0,#E815F4) !important;
+	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+}
+
 .card-body p{
 	font-family: Roboto;
 }
@@ -270,6 +276,14 @@ height: auto;
 	width:64px;
 	border-radius: 50%;
 }
-#projects .project-link{
-	color: #00B5FF;
+#projects .project-link,#projects .project-link a{
+	color: #00B5FF !important;
+}
+#projects .project-link i{
+	box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.1);
+}
+#projects .project-link i:hover{
+	box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.2);
+	color: #E617F4;
+	transition: all 0.5s;
 }
