@@ -140,6 +140,12 @@
 			</div>
 		</div>
 	</section>
+
+
+
+
+	<!--         PROFILE SECTION           -->
+
 	<section id="profile" class="section-padding">
 		<div class="row profile-heading">
 			<div class="col-md-12 pl-4 pr-4 under-line" data-aos="fade-right" data-aos-duration="1000"><h1>Profile</h1></div>
@@ -172,6 +178,77 @@
 			</div>
 		</div>
 	</section>
+
+
+
+	<!--         SKILL SECTION           -->
+
+	<section id="skill" class="section-padding">
+		<div class="row">
+			<div class="col-md-12 pl-4 pr-4 under-line" data-aos="fade-right" data-aos-duration="1000">
+				<h1>Skills</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="skill-wrapper">
+					<div class="skill-name">
+						HTML
+					</div>
+					<div class="skill-label">
+						75%
+					</div>
+					<div class="skill-percent">
+					</div>
+				</div>
+				<div class="skill-wrapper">
+					<div class="skill-name">
+						CSS
+					</div>
+					<div class="skill-label">
+						65%
+					</div>
+					<div class="skill-percent">
+					</div>
+				</div>
+				<div class="skill-wrapper">
+					<div class="skill-name">
+						CSS
+					</div>
+					<div class="skill-label">
+						65%
+					</div>
+					<div class="skill-percent">
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+								<div class="skill-wrapper">
+					<div class="skill-name">
+						HTML
+					</div>
+					<div class="skill-label">
+						75%
+					</div>
+					<div class="skill-percent">
+					</div>
+				</div>
+				<div class="skill-wrapper">
+					<div class="skill-name">
+						CSS
+					</div>
+					<div class="skill-label">
+						65%
+					</div>
+					<div class="skill-percent">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--         old SKILL SECTION           -->
 	<section id="skill" class="section-padding">
 		<div class="row">
 			<div class="col-md-12 pl-4 pr-4 under-line" data-aos="fade-right" data-aos-duration="1000">
@@ -181,49 +258,49 @@
 		<div class="row justify-content-center align-items-center mt-80px">
 			<div class="col-md-10 mx-auto skill-slide p-4">
 				<div class="single-skill">
-					<div class="ks-progress mx-auto" data-size="115" data-thickness="12" data-color="#229922" data-background="#fff" data-progress="55" data-speed="500">
+					<div class="ks-progress mx-auto" data-size="80" data-thickness="12" data-color="#229922" data-background="#fff" data-progress="55" data-speed="500">
 	                    <div class="ks-progress-content" data-vcenter="true">
 	                        <img class="d-block mx-auto" height="40" width="40" src="assets/image/icon/html.svg">
 	                    </div>
 	                </div>
             	</div>
             	<div class="single-skill">
-					<div class="ks-progress mx-auto" data-size="115" data-thickness="12" data-color="#229922" data-background="#fff" data-progress="35" data-speed="500">
+					<div class="ks-progress mx-auto" data-size="80" data-thickness="12" data-color="#229922" data-background="#fff" data-progress="35" data-speed="500">
 	                    <div class="ks-progress-content" data-vcenter="true">
 	                        <img class="d-block mx-auto" height="40" width="40" src="assets/image/icon/css.svg">
 	                    </div>
 	                </div>
             	</div>
             	<div class="single-skill">
-					<div class="ks-progress mx-auto" data-size="115" data-thickness="12" data-color="#229922" data-background="#fff" data-progress="55" data-speed="500">
+					<div class="ks-progress mx-auto" data-size="80" data-thickness="12" data-color="#229922" data-background="#fff" data-progress="55" data-speed="500">
 	                    <div class="ks-progress-content" data-vcenter="true">
 	                        <img class="d-block mx-auto" height="40" width="40" src="assets/image/icon/javascript.svg">
 	                    </div>
 	                </div>
             	</div>
             	<div class="single-skill">
-					<div class="ks-progress mx-auto" data-size="120" data-thickness="15" data-color="#229922" data-background="#fff" data-progress="85" data-speed="500">
+					<div class="ks-progress mx-auto" data-size="80" data-thickness="15" data-color="#229922" data-background="#fff" data-progress="85" data-speed="500">
 	                    <div class="ks-progress-content" data-vcenter="true">
 	                        <img class="d-block mx-auto" height="40" width="40" src="assets/image/icon/jquery.svg">
 	                    </div>
 	                </div>
             	</div>
             	<div class="single-skill">
-					<div class="ks-progress mx-auto" data-size="115" data-thickness="12" data-color="#229922" data-background="#fff" data-progress="85" data-speed="500">
+					<div class="ks-progress mx-auto" data-size="80" data-thickness="12" data-color="#229922" data-background="#fff" data-progress="85" data-speed="500">
 	                    <div class="ks-progress-content" data-vcenter="true">
 	                        <img class="d-block mx-auto" height="40" width="40" src="assets/image/icon/php.svg">
 	                    </div>
 	                </div>
             	</div>
             	<div class="single-skill">
-					<div class="ks-progress mx-auto" data-size="115" data-thickness="12" data-color="#229922" data-background="#fff" data-progress="85" data-speed="500">
+					<div class="ks-progress mx-auto" data-size="80" data-thickness="12" data-color="#229922" data-background="#fff" data-progress="85" data-speed="500">
 	                    <div class="ks-progress-content" data-vcenter="true">
 	                        <img class="d-block mx-auto" height="40" width="40" src="assets/image/icon/codeigniter.svg">
 	                    </div>
 	                </div>
             	</div>
             	<div class="single-skill">
-					<div class="ks-progress mx-auto" data-size="115" data-thickness="12" data-color="#229922" data-background="#fff" data-progress="65" data-speed="500">
+					<div class="ks-progress mx-auto" data-size="80" data-thickness="12" data-color="#229922" data-background="#fff" data-progress="65" data-speed="500">
 	                    <div class="ks-progress-content" data-vcenter="true">
 	                        <img class="d-block mx-auto" height="40" width="40" src="assets/image/icon/python.svg">
 	                    </div>
@@ -232,12 +309,17 @@
 			</div>
 		</div>
 	</section>
-		<section id="projects" class="section-padding">
+
+
+
+<!--         PROJECT SECTION           -->
+	<section id="projects" class="section-padding">
 		<div class="row">
 			<div class="col-md-12 pl-4 pr-4 under-line">
 				<h1>Projects</h1>
 			</div>
 		</div>
+	<?php for($i=0;$i<2;$i++):?>
 		<div class="row mt-5">
 			<div class="col-md-4 pb-3">
 				<div class="card">
@@ -296,8 +378,13 @@
 				</div>
 			</div>
 		</div>
-		<div class="row justify-content-center align-items-center mt-80px">
-		</div>
+	<?php endfor ?>
+	</section>
+
+
+
+	<!--         RESUME SECTION           -->
+	<section id="resume" class="section-padding">
 	</section>
 </div>
 
