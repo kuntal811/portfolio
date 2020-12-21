@@ -191,59 +191,16 @@
 		</div>
 		<div class="row">
 			<div class="col-md-6">
-				<div class="skill-wrapper">
-					<div class="skill-name">
-						HTML
-					</div>
-					<div class="skill-label">
-						75%
-					</div>
-					<div class="skill-percent">
-					</div>
-				</div>
-				<div class="skill-wrapper">
-					<div class="skill-name">
-						CSS
-					</div>
-					<div class="skill-label">
-						65%
-					</div>
-					<div class="skill-percent">
-					</div>
-				</div>
-				<div class="skill-wrapper">
-					<div class="skill-name">
-						CSS
-					</div>
-					<div class="skill-label">
-						65%
-					</div>
-					<div class="skill-percent">
-					</div>
-				</div>
+				<div class="skill-wrapper" skill-name="HTML" skill-percent="75"></div>
+				<div class="skill-wrapper" skill-name="CSS" skill-percent="80"></div>
+				<div class="skill-wrapper" skill-name="Bootstrap" skill-percent="60"></div>
+				<div class="skill-wrapper" skill-name="JavaScript" skill-percent="65"></div>
+				<div class="skill-wrapper" skill-name="JQuery" skill-percent="60"></div>
 			</div>
-
 			<div class="col-md-6">
-								<div class="skill-wrapper">
-					<div class="skill-name">
-						HTML
-					</div>
-					<div class="skill-label">
-						75%
-					</div>
-					<div class="skill-percent">
-					</div>
-				</div>
-				<div class="skill-wrapper">
-					<div class="skill-name">
-						CSS
-					</div>
-					<div class="skill-label">
-						65%
-					</div>
-					<div class="skill-percent">
-					</div>
-				</div>
+				<div class="skill-wrapper" skill-name="PHP" skill-percent="70"></div>
+				<div class="skill-wrapper" skill-name="Codeigniter" skill-percent="60"></div>
+				<div class="skill-wrapper" skill-name="Python" skill-percent="65"></div>
 			</div>
 		</div>
 	</section>

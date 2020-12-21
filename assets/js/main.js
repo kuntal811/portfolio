@@ -20,7 +20,7 @@
   	$('header').css("background",$color);
 
   });
-
+/*
 // Particle
 tsParticles
   .loadJSON("programming-language-particles", "http://localhost/portfolio/portfolio1/assets/particles.json")
@@ -34,3 +34,14 @@ tsParticles
 const particles = tsParticles.domItem(0);
 particles.play();
 particles.pause();
+*/
+
+var skillWrapper = document.querySelectorAll(".skill-wrapper");
+
+for(var i=0;i<skillWrapper.length;i++){
+    skillWrapper[i].innerHTML ='<div class="skill-name"></div><div class="skill-label"></div><div class="skill-percent"></div>';
+    let percent = skillWrapper[i].getAttribute("skill-percent");
+    skillWrapper[i].childNodes[2].style.width =  percent+"%";
+    skillWrapper[i].childNodes[1].innerHTML   =  percent+"%";
+    skillWrapper[i].childNodes[0].innerHTML   =  skillWrapper[i].getAttribute("skill-name");;
+}
