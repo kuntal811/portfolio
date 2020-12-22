@@ -135,7 +135,7 @@
 			</div>
 			<div class="row justify-content-center">
 				<div class="col-md-8 profile-photo-1" >
-					<img data-aos="zoom-in-right" data-aos-delay="800" class="mx-auto animate__animated animate__jackInTheBox animate__delay-4s animate__slow" src="assets/image/self/KUNTAL.jpg"/>
+					<img data-aos="zoom-in-up" data-aos-delay="800" class="mx-auto animate__animated animate__jackInTheBox animate__delay-4s animate__slow" src="assets/image/self/KUNTAL.jpg"/>
 				</div>
 			</div>
 		</div>
@@ -148,11 +148,11 @@
 
 	<section id="profile" class="section-padding">
 		<div class="row profile-heading">
-			<div class="col-md-12 pl-4 pr-4 under-line" data-aos="fade-right" data-aos-duration="1000"><h1>Profile</h1></div>
+			<div class="col-md-12 pl-4 pr-4 under-line" data-aos="fade-up" data-aos-duration="1000"><h1>Profile</h1></div>
 		</div>
 		<div class="row profile-container">
 			<div class="col-md-6 d-flex">
-				<div data-aos="zoom-in-right" data-aos-duration="1000" class="profile-image-container position-relative mx-auto align-self-center">
+				<div data-aos="zoom-in-up" data-aos-duration="1000" class="profile-image-container position-relative mx-auto align-self-center">
 					<img src="assets/image/Onboarding.svg"/>
 				</div>
 			</div>
@@ -185,30 +185,31 @@
 
 	<section id="skill" class="section-padding">
 		<div class="row">
-			<div class="col-md-12 pl-4 pr-4 under-line" data-aos="fade-right" data-aos-duration="1000">
+			<div class="col-md-12 pl-4 pr-4 under-line" data-aos="fade-up" data-aos-duration="1000">
 				<h1>Skills</h1>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-6 animate__animated animate__bounce">
-				<div class="skill-wrapper" skill-name="HTML" skill-percent="75" data-aos="fade-right"></div>
-				<div class="skill-wrapper" skill-name="CSS" skill-percent="80"data-aos="fade-right"></div>
-				<div class="skill-wrapper" skill-name="Bootstrap" skill-percent="60"data-aos="fade-right"></div>
-				<div class="skill-wrapper" skill-name="JavaScript" skill-percent="65"data-aos="fade-right"></div>
-				<div class="skill-wrapper" skill-name="JQuery" skill-percent="60"data-aos="fade-right"></div>
+				<div class="skill-wrapper" skill-name="HTML" skill-percent="75" data-aos="fade-up"></div>
+				<div class="skill-wrapper" skill-name="CSS" skill-percent="80"data-aos="fade-up"></div>
+				<div class="skill-wrapper" skill-name="Bootstrap" skill-percent="60"data-aos="fade-up"></div>
+				<div class="skill-wrapper" skill-name="JavaScript" skill-percent="65"data-aos="fade-up"></div>
+				<div class="skill-wrapper" skill-name="JQuery" skill-percent="60"data-aos="fade-up"></div>
 			</div>
 			<div class="col-md-6">
-				<div class="skill-wrapper" skill-name="PHP" skill-percent="70"data-aos="fade-right"></div>
-				<div class="skill-wrapper" skill-name="Codeigniter" skill-percent="60"data-aos="fade-right"></div>
-				<div class="skill-wrapper" skill-name="Python" skill-percent="65"data-aos="fade-right"></div>
+				<div class="skill-wrapper" skill-name="PHP" skill-percent="70"data-aos="fade-up"></div>
+				<div class="skill-wrapper" skill-name="Codeigniter" skill-percent="60"data-aos="fade-up"></div>
+				<div class="skill-wrapper" skill-name="Python" skill-percent="65"data-aos="fade-up"></div>
 			</div>
 		</div>
 	</section>
 
 	<!--         old SKILL SECTION           -->
+<!--
 	<section id="skill" class="section-padding">
 		<div class="row">
-			<div class="col-md-12 pl-4 pr-4 under-line" data-aos="fade-right" data-aos-duration="1000">
+			<div class="col-md-12 pl-4 pr-4 under-line" data-aos="fade-up" data-aos-duration="1000">
 				<h1>Skills</h1>
 			</div>
 		</div>
@@ -266,7 +267,7 @@
 			</div>
 		</div>
 	</section>
-
+-->
 
 
 <!--         PROJECT SECTION           -->

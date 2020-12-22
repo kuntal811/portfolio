@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Courgette&display=swap');
 body{
 background:linear-gradient(to right top, #1ccaee, #00bbff, #00a4ff, #8c7bff, #ea13f4) !important;
-height: 500vh;
+height: 1000vh;
 overflow-x:hidden;
 }
 .pre-loader{
@@ -185,10 +185,10 @@ header{
 #profile{
 	height:100vh;
 	padding-top: 50px;
+	overflow-x: hidden;
 }
-.profile-heading h2{
-
-	//background:linear-gradient(to right,#00d5ff41,#00d6ff99,#00c0ff,#33ADFF,#5f76ff,#A976E8);
+.profile-heading{
+	
 }
 .profile-container{
 	margin-top: 80px;
