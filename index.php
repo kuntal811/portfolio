@@ -190,17 +190,17 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-6">
-				<div class="skill-wrapper" skill-name="HTML" skill-percent="75"></div>
-				<div class="skill-wrapper" skill-name="CSS" skill-percent="80"></div>
-				<div class="skill-wrapper" skill-name="Bootstrap" skill-percent="60"></div>
-				<div class="skill-wrapper" skill-name="JavaScript" skill-percent="65"></div>
-				<div class="skill-wrapper" skill-name="JQuery" skill-percent="60"></div>
+			<div class="col-md-6 animate__animated animate__bounce">
+				<div class="skill-wrapper" skill-name="HTML" skill-percent="75" data-aos="fade-right"></div>
+				<div class="skill-wrapper" skill-name="CSS" skill-percent="80"data-aos="fade-right"></div>
+				<div class="skill-wrapper" skill-name="Bootstrap" skill-percent="60"data-aos="fade-right"></div>
+				<div class="skill-wrapper" skill-name="JavaScript" skill-percent="65"data-aos="fade-right"></div>
+				<div class="skill-wrapper" skill-name="JQuery" skill-percent="60"data-aos="fade-right"></div>
 			</div>
 			<div class="col-md-6">
-				<div class="skill-wrapper" skill-name="PHP" skill-percent="70"></div>
-				<div class="skill-wrapper" skill-name="Codeigniter" skill-percent="60"></div>
-				<div class="skill-wrapper" skill-name="Python" skill-percent="65"></div>
+				<div class="skill-wrapper" skill-name="PHP" skill-percent="70"data-aos="fade-right"></div>
+				<div class="skill-wrapper" skill-name="Codeigniter" skill-percent="60"data-aos="fade-right"></div>
+				<div class="skill-wrapper" skill-name="Python" skill-percent="65"data-aos="fade-right"></div>
 			</div>
 		</div>
 	</section>
@@ -279,7 +279,7 @@
 	<?php for($i=0;$i<2;$i++):?>
 		<div class="row mt-5">
 			<div class="col-md-4 pb-3">
-				<div class="card">
+				<div class="card" data-aos="zoom-in-left">
 					<div class="card-header">
 						<div class="project-icon text-center p-3">
 								<span class="project-icon-wrapper m-4 br-50">
