@@ -364,3 +364,53 @@ height: auto;
 	color: #E617F4;
 	transition: all 0.5s;
 }
+
+.timeline .timeline-content-container{
+	margin-left: 50px;
+	border-left: 3px solid #fff;
+	padding: 10px 0 0 29px;
+}
+.timeline .timeline-content-container::before{
+	font-family: "Font Awesome 5 Free";
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	font-weight: 900;
+	color: #E418F4;
+	position: absolute;
+	//border: 10px solid red;
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	top: 0px;
+	left: 47px;
+	//transform:translate(-20px,-20px);
+	background: #fff;
+	font-size: 20px;
+}
+.timeline .education::before{
+	content: "\f501";
+}
+.timeline .experience::before{
+	content: "\f0b1";
+}
+.timeline .timeline-content-container .timeline-content{
+	position: relative;
+	margin: 10px 0;
+	padding: 5px 15px;
+	background: linear-gradient(-45deg,#18C8F0,#E815F4) !important;
+	box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.2);
+	border-radius: 5px; 
+}
+.timeline .timeline-content-container .timeline-content::before{
+	content: "";
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: -36px;
+	height: 10px;
+	width: 10px;
+	border: 2px solid #fff;
+	background: #E418F4;
+	border-radius:50%;
+}

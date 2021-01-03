@@ -11,14 +11,15 @@
 
 	<!---- external source  -->
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+	<!--
 	<link rel="stylesheet" type="text/css" href="assets/vendor/animate.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/vendor/ks-progress/ks-progress.css">
 
 	<link rel="stylesheet" type="text/css" href="assets/vendor/slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="assets/vendor/slick/slick-theme.css"/>
-				
+		
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
+-->
 
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<style>
@@ -135,7 +136,7 @@
 			</div>
 			<div class="row justify-content-center">
 				<div class="col-md-8 profile-photo-1" >
-					<img data-aos="zoom-in-up" data-aos-delay="800" class="mx-auto animate__animated animate__jackInTheBox animate__delay-4s animate__slow" src="assets/image/self/KUNTAL.jpg"/>
+					<img data-aos="zoom-in-right" data-aos-delay="800" class="mx-auto animate__animated animate__jackInTheBox animate__delay-4s animate__slow" src="assets/image/self/KUNTAL.jpg"/>
 				</div>
 			</div>
 		</div>
@@ -148,11 +149,11 @@
 
 	<section id="profile" class="section-padding">
 		<div class="row profile-heading">
-			<div class="col-md-12 pl-4 pr-4 under-line" data-aos="fade-up" data-aos-duration="1000"><h1>Profile</h1></div>
+			<div class="col-md-12 pl-4 pr-4 under-line" data-aos="fade-right" data-aos-duration="1000"><h1>Profile</h1></div>
 		</div>
 		<div class="row profile-container">
 			<div class="col-md-6 d-flex">
-				<div data-aos="zoom-in-up" data-aos-duration="1000" class="profile-image-container position-relative mx-auto align-self-center">
+				<div data-aos="zoom-in-right" data-aos-duration="1000" class="profile-image-container position-relative mx-auto align-self-center">
 					<img src="assets/image/Onboarding.svg"/>
 				</div>
 			</div>
@@ -185,22 +186,22 @@
 
 	<section id="skill" class="section-padding">
 		<div class="row">
-			<div class="col-md-12 pl-4 pr-4 under-line" data-aos="fade-up" data-aos-duration="1000">
+			<div class="col-md-12 pl-4 pr-4 under-line" data-aos="fade-right" data-aos-duration="1000">
 				<h1>Skills</h1>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-6 animate__animated animate__bounce">
-				<div class="skill-wrapper" skill-name="HTML" skill-percent="75" data-aos="fade-up"></div>
-				<div class="skill-wrapper" skill-name="CSS" skill-percent="80"data-aos="fade-up"></div>
-				<div class="skill-wrapper" skill-name="Bootstrap" skill-percent="60"data-aos="fade-up"></div>
-				<div class="skill-wrapper" skill-name="JavaScript" skill-percent="65"data-aos="fade-up"></div>
-				<div class="skill-wrapper" skill-name="JQuery" skill-percent="60"data-aos="fade-up"></div>
+				<div class="skill-wrapper" skill-name="HTML" skill-percent="75" data-aos="fade-right"></div>
+				<div class="skill-wrapper" skill-name="CSS" skill-percent="80"data-aos="fade-right"></div>
+				<div class="skill-wrapper" skill-name="Bootstrap" skill-percent="60"data-aos="fade-right"></div>
+				<div class="skill-wrapper" skill-name="JavaScript" skill-percent="65"data-aos="fade-right"></div>
+				<div class="skill-wrapper" skill-name="JQuery" skill-percent="60"data-aos="fade-right"></div>
 			</div>
 			<div class="col-md-6">
-				<div class="skill-wrapper" skill-name="PHP" skill-percent="70"data-aos="fade-up"></div>
-				<div class="skill-wrapper" skill-name="Codeigniter" skill-percent="60"data-aos="fade-up"></div>
-				<div class="skill-wrapper" skill-name="Python" skill-percent="65"data-aos="fade-up"></div>
+				<div class="skill-wrapper" skill-name="PHP" skill-percent="70"data-aos="fade-right"></div>
+				<div class="skill-wrapper" skill-name="Codeigniter" skill-percent="60"data-aos="fade-right"></div>
+				<div class="skill-wrapper" skill-name="Python" skill-percent="65"data-aos="fade-right"></div>
 			</div>
 		</div>
 	</section>
@@ -209,7 +210,7 @@
 <!--
 	<section id="skill" class="section-padding">
 		<div class="row">
-			<div class="col-md-12 pl-4 pr-4 under-line" data-aos="fade-up" data-aos-duration="1000">
+			<div class="col-md-12 pl-4 pr-4 under-line" data-aos="fade-right" data-aos-duration="1000">
 				<h1>Skills</h1>
 			</div>
 		</div>
@@ -343,6 +344,55 @@
 
 	<!--         RESUME SECTION           -->
 	<section id="resume" class="section-padding">
+		<div class="row">
+			<div class="col-md-12 pl-4 pr-4 under-line">
+				<h1>Resume</h1>
+			</div>
+			<div class="col-md-6">
+				<div class="timeline">
+					<div class="timeline-content-container education">
+						<h3>Education</h3>
+						<div class="timeline-content">
+							<h5>10th Standard</h5>
+							<h6>2009-2015</h6>
+							<p>I completed my secondary education from A.C.Institution,Malda</p>
+						</div>
+						<div class="timeline-content">
+							<h5>Higher Secondary</h5>
+							<h6>2015-2017</h6>
+							<p>I completed my higher secondary education from A.C.Institution,Malda</p>
+						</div>
+						<div class="timeline-content">
+							<h5>Graduation</h5>
+							<h6>2017-2020</h6>
+							<p>I completed my graduation in B.Sc(Computer Science) from Malda College,Malda</p>
+						</div>
+						<div class="timeline-content">
+							<h5>Post Graduation</h5>
+							<h6>2020-Present</h6>
+							<p>I am doing  my MCA from Pondicherry University,Puducherry</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="timeline">
+					<div class="timeline-content-container experience">
+						<h3>Experience</h3>
+						<div class="timeline-content">
+							<h5>Malda Nattyasena</h5>
+							<h6>2019-Present</h6>
+							<p>Built a ticket booking website for Malda Nattyasena and I'm maintaining it now.</p>
+						</div>
+						<div class="timeline-content">
+							<h5>SobarBazar Malda</h5>
+							<h6>2020-2020</h6>
+							<p>Built a E-commerce website in WordPress CMS and maintained it.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
 </div>
 
