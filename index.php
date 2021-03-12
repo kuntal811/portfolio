@@ -21,13 +21,8 @@
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 -->
 
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<style>
-		.slick-slide{opacity:0.5;}
-		.slick-current{
-			opacity: 1;
-	//background-color:red;
-}</style>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">	
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 
 </head>
 <body >
@@ -163,7 +158,7 @@
 					<p class="text-justify pt-3"> I am a Web Developer. I can provide clean code and pixel perfect design. I also make website more & more interactive with web animations. 
 					</p>
 					<div class="profile-content">
-							<ul class="d-flex flex-column list-unstyled justify-content-center">
+							<ul class="d-flex flex-column list-unstyled">
 								<li class=""><b>Full Name</b> Kuntal Sarkar</li>
 								<li class=""><b>Date of Birth</b> 22-11-1998</li>
 								<li class=""><b>Language</b> Bengali, English ,Hindi</li>
@@ -173,7 +168,7 @@
 							</ul>
 					</div>
 					<div class="profile-btn p-4">
-						<button class="btn btn-primary">Download</button>
+						<button class="btn btn-custom">Download</button>
 					</div>
 				</div>
 			</div>
@@ -280,7 +275,7 @@
 		</div>
 	<?php for($i=0;$i<2;$i++):?>
 		<div class="row mt-5">
-			<div class="col-md-4 pb-3">
+			<div class="col-md-4 pb-3 align-items-stretch">
 				<div class="card" data-aos="zoom-in-left">
 					<div class="card-header">
 						<div class="project-icon text-center p-3">
@@ -353,24 +348,21 @@
 					<div class="timeline-content-container education">
 						<h3>Education</h3>
 						<div class="timeline-content">
-							<h5>10th Standard</h5>
-							<h6>2009-2015</h6>
-							<p>I completed my secondary education from A.C.Institution,Malda</p>
+							<h5>Post Graduation</h5>
+							<h6>2020-Present</h6>
+							<p>I am doing  my MCA from Pondicherry University,Puducherry</p>
 						</div>
-						<div class="timeline-content">
-							<h5>Higher Secondary</h5>
-							<h6>2015-2017</h6>
-							<p>I completed my higher secondary education from A.C.Institution,Malda</p>
-						</div>
+
 						<div class="timeline-content">
 							<h5>Graduation</h5>
 							<h6>2017-2020</h6>
 							<p>I completed my graduation in B.Sc(Computer Science) from Malda College,Malda</p>
 						</div>
+
 						<div class="timeline-content">
-							<h5>Post Graduation</h5>
-							<h6>2020-Present</h6>
-							<p>I am doing  my MCA from Pondicherry University,Puducherry</p>
+							<h5>Higher Secondary</h5>
+							<h6>2015-2017</h6>
+							<p>I completed my higher secondary education from A.C.Institution,Malda</p>
 						</div>
 					</div>
 				</div>
@@ -380,20 +372,59 @@
 					<div class="timeline-content-container experience">
 						<h3>Experience</h3>
 						<div class="timeline-content">
-							<h5>Malda Nattyasena</h5>
-							<h6>2019-Present</h6>
-							<p>Built a ticket booking website for Malda Nattyasena and I'm maintaining it now.</p>
+							<h5>Shining Tomorrow Foundation</h5>
+							<h6>Jan 2021 - Mar 2021 </h6>
+							<p>Joined as a Web Developer intern and make a multi-type quiz portal and got a SHINER award.</p>
 						</div>
 						<div class="timeline-content">
 							<h5>SobarBazar Malda</h5>
-							<h6>2020-2020</h6>
+							<h6>Sept 2020 - Nov 2020</h6>
 							<p>Built a E-commerce website in WordPress CMS and maintained it.</p>
+						</div>
+						<div class="timeline-content">
+							<h5>Malda Nattyasena</h5>
+							<h6>2019-Present</h6>
+							<p>Built a ticket booking website for Malda Nattyasena and I'm maintaining it now.</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+	<!--         PROJECT SECTION           -->
+	<section id="contact" class="section-padding mt-md-5">
+		<div class="row mb-md-5">
+			<div class="col-md-12 pl-4 pr-4 under-line">
+				<h1>Contact</h1>
+			</div>
+		</div>
+		<div class="row ml-5 mr-5 align-items-center">
+			<div class="col-md-6">
+				<img class = "contact-image" src="assets/image/contact.svg">
+			</div>
+			<div class="col-md-6">
+				<div class="contact-form">
+					<form action="#" method="post">
+						<div class="form-group">
+							<input type="text" name ="name" id="name" class="form-control" placeholder="Enter Your Name">
+						</div>
+						<div class="form-group">
+							<input type="email" name="email" id ="email" class="form-control" placeholder="Enter Email">
+						</div>
+						<div class="form-group">
+							<input type="text" name="subject" id ="subject" class="form-control" placeholder="Enter Subject">
+						</div>
+						<div class="form-group">
+							<textarea name="message" class="form-control" id="message" placeholder="Enter Your Message"></textarea>
+						</div>
+						<div class="form-group text-center">
+							<input type="submit" id="send-msg" class="btn btn-custom" value ="Send">
+						</div>
+						<div id="msg" class="font-weight-bold text-center"></div>
+					</form>
+				</div>
+			</div>
+		</div>
 </div>
 
 
@@ -414,46 +445,10 @@
 	  AOS.init();
 	});
 
-$(document).ready(function(){
-	/*
-   slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 2000, 
-*/
-$('.skill-slide').slick({
-  centerMode: true,
-  centerPadding: '60px',
-   slidesToShow: 3,
+	(function() {
+	emailjs.init("user_s4WUI4oCJ1m8PkCE1W08f");
+	})();
 
-  responsive: [
-    {
-      breakpoint: 768,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 3
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '10px',
-        slidesToShow: 3
-      }
-    }
-  ]
-});
-		;
-});
-		
- document.addEventListener('DOMContentLoaded', function () {
-    ToxProgress.create();
-    ToxProgress.animate();
-   });
-	
 </script>
 </body>
 </html>

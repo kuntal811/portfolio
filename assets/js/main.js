@@ -45,3 +45,22 @@ for(var i=0;i<skillWrapper.length;i++){
     skillWrapper[i].childNodes[1].innerHTML   =  percent+"%";
     skillWrapper[i].childNodes[0].innerHTML   =  skillWrapper[i].getAttribute("skill-name");;
 }
+
+$(document).on('submit','form',function(event){
+  event.preventDefault();
+  $('#send-msg').val("Sending...");
+
+  emailjs.send("service_fg3wnq1","template_gdnmz3n",{
+    name :    $('#name').val(),
+    email:    $('#email').val(),
+    subject:  $('#subject').val(),
+    message:  $('#message').val(),
+  }).then(()=>{
+    $('#send-msg').val("Send");
+    $('#msg').html("Send Successfully");
+    this.reset();
+  },(err)=>{
+    $('#send-msg').val("Send");
+    $('#msg').html("Send Failed!Try again");
+  });
+});
