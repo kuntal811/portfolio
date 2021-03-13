@@ -20,21 +20,22 @@
   	$('header').css("background",$color);
 
   });
-/*
+
 // Particle
 tsParticles
-  .loadJSON("programming-language-particles", "http://localhost/portfolio/portfolio1/assets/particles.json")
+  .loadJSON("programming-language-particles", "http://kuntal/portfolio/portfolio1/assets/particles.json")
   .then((container) => {
     console.log("callback - tsparticles config loaded");
   })
   .catch((error) => {
     console.error(error);
+    console.log("erooooooorrrrrrrrrrrrrrrrrrrrrrrrrrrrr")
   });
 
 const particles = tsParticles.domItem(0);
 particles.play();
 particles.pause();
-*/
+
 
 var skillWrapper = document.querySelectorAll(".skill-wrapper");
 

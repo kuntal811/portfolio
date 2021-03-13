@@ -181,16 +181,16 @@
 		</div>
 		<div class="row">
 			<div class="col-md-6 animate__animated animate__bounce">
-				<div class="skill-wrapper" skill-name="HTML" skill-percent="75" data-aos="fade-right"></div>
-				<div class="skill-wrapper" skill-name="CSS" skill-percent="80"data-aos="fade-right"></div>
-				<div class="skill-wrapper" skill-name="Bootstrap" skill-percent="60"data-aos="fade-right"></div>
-				<div class="skill-wrapper" skill-name="JavaScript" skill-percent="65"data-aos="fade-right"></div>
-				<div class="skill-wrapper" skill-name="JQuery" skill-percent="60"data-aos="fade-right"></div>
+				<div class="skill-wrapper" skill-name="HTML" skill-percent="75" data-aos="fade-right" data-aos-duration="2000" ></div>
+				<div class="skill-wrapper" skill-name="CSS" skill-percent="80"data-aos="fade-right" data-aos-duration="2000" ></div>
+				<div class="skill-wrapper" skill-name="Bootstrap" skill-percent="60"data-aos="fade-right" data-aos-duration="2000" ></div>
+				<div class="skill-wrapper" skill-name="JavaScript" skill-percent="65"data-aos="fade-right" data-aos-duration="2000" ></div>
+				<div class="skill-wrapper" skill-name="JQuery" skill-percent="60"data-aos="fade-right" data-aos-duration="2000" ></div>
 			</div>
 			<div class="col-md-6">
-				<div class="skill-wrapper" skill-name="PHP" skill-percent="70"data-aos="fade-right"></div>
-				<div class="skill-wrapper" skill-name="Codeigniter" skill-percent="60"data-aos="fade-right"></div>
-				<div class="skill-wrapper" skill-name="Python" skill-percent="65"data-aos="fade-right"></div>
+				<div class="skill-wrapper" skill-name="PHP" skill-percent="70"data-aos="fade-right" data-aos-duration="2000" ></div>
+				<div class="skill-wrapper" skill-name="Codeigniter" skill-percent="60"data-aos="fade-right" data-aos-duration="2000" ></div>
+				<div class="skill-wrapper" skill-name="Python" skill-percent="65"data-aos="fade-right" data-aos-duration="2000" ></div>
 			</div>
 		</div>
 	</section>
@@ -270,7 +270,7 @@
 	<?php for($i=0;$i<2;$i++):?>
 		<div class="row mt-5">
 			<div class="col-md-4 pb-3 align-items-stretch">
-				<div class="card" data-aos="zoom-in-left">
+				<div class="card" data-aos="zoom-in-left" data-aos-duration="2000">
 					<div class="card-header">
 						<div class="project-icon text-center p-3">
 								<span class="project-icon-wrapper m-4 br-50">
@@ -288,7 +288,7 @@
 				</div>
 			</div>
 			<div class="col-md-4 pb-3">
-				<div class="card" data-aos="zoom-in-left">
+				<div class="card" data-aos="zoom-in-left" data-aos-duration="2000">
 					<div class="card-header">
 						<div class="project-icon text-center p-3">
 								<span class="project-icon-wrapper p-4 br-50">
@@ -306,7 +306,7 @@
 				</div>
 			</div>
 			<div class="col-md-4 pb-3">
-				<div class="card" data-aos="zoom-in-left">
+				<div class="card" data-aos="zoom-in-left" data-aos-duration="2000">
 					<div class="card-header">
 						<div class="project-icon text-center p-3">
 								<span class="project-icon-wrapper m-4 br-50">
@@ -393,7 +393,7 @@
 			</div>
 		</div>
 		<div class="row ml-md-5 mr-md-5 align-items-center">
-			<div class="col-md-6" data-aos="zoom-in-right" data-aos-duration="1000">
+			<div class="col-md-6" data-aos="zoom-in-right" data-aos-duration="2000">
 				<img class ="d-block mx-auto contact-image" src="assets/image/contact.svg">
 			</div>
 			<div class="col-md-6">
@@ -427,11 +427,7 @@
 <script src="assets/vendor/typed.js@2.0.11.js"></script>
 <script src="assets/js/jquery-3.5.1.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/vendor/ks-progress/ks-progress.js"></script>
-
 <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="assets/vendor/slick/slick.min.js"></script>
-
 <script src="assets/js/main.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
