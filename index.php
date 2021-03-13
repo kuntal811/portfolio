@@ -21,6 +21,7 @@
 </head>
 <body>
 <div class="pre-loader"><h2>Loading</h2></div>
+<div class="mask"></div>
 <div class="bg-svg" style="display: none">
 	<header>
 		<nav class="navbar navbar-expand-lg navbar-light bg-transparent">
@@ -28,7 +29,6 @@
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-container" aria-controls="navbar-container" aria-expanded="false" aria-label="Toggle navigation">
 			    <span class="navbar-toggler-icon"></span>
 			  </button>
-
 			  <div class="collapse navbar-collapse" id="navbar-container">
 			  	<!--
 			  	<a class="animate__animated animate__zoomInDown" href="#">HOME</a>
@@ -36,30 +36,31 @@
 			  	<a class="animate__animated animate__zoomInDown animate__delay-3s" href="#">Skill</a>
 			  	<a class="animate__animated animate__zoomInDown animate__delay-4s" href="#">Work</a>
 			  -->
-			    <ul class="navbar-nav  mr-right">
-			      <li class="nav-item active animate__animated animate__zoomInDown animate__delay-4s">
+			  	<div class="text-right">
+			  		<button id="close-menu" class="btn btn-custom animate__animated animate__zoomInDown animate__delay-06s">
+			  			<i class="fa fa-times" aria-hidden="true"></i>
+			  		</button>
+			  	</div>
+			    <ul class="navbar-nav  justify-content-end">
+			      <li class="nav-item active animate__animated animate__zoomInDown animate__delay-05s">
 			        <a class="nav-link" href="#home">Home
 			          <span class="sr-only">(current)</span>
 			        </a>
 			      </li>
-			      <li class="nav-item animate__animated animate__zoomInDown animate__delay-3s">
+			      <li class="nav-item animate__animated animate__zoomInDown animate__delay-04s">
 			        <a class="nav-link" href="#profile">Profile</a>
 			      </li>
-			      <li class="nav-item animate__animated animate__zoomInDown animate__delay-2s">
-			        <a class="nav-link" href="#">Pricing</a>
+			      <li class="nav-item animate__animated animate__zoomInDown animate__delay-03s">
+			        <a class="nav-link" href="#skill">Skill</a>
 			      </li>
-			      <li class="nav-item animate__animated animate__zoomInDown animate__delay-1s">
-			        <a class="nav-link" href="#">About</a>
+			      <li class="nav-item animate__animated animate__zoomInDown animate__delay-02s">
+			        <a class="nav-link" href="#projects">Project</a>
 			      </li>
-			      <li class="nav-item dropdown animate__animated animate__zoomInDown ">
-			        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-			        <div class="dropdown-menu">
-			          <a class="dropdown-item" href="#">Action</a>
-			          <a class="dropdown-item" href="#">Another action</a>
-			          <a class="dropdown-item" href="#">Something else here</a>
-			          <div class="dropdown-divider"></div>
-			          <a class="dropdown-item" href="#">Separated link</a>
-			        </div>
+			      <li class="nav-item animate__animated animate__zoomInDown animate__delay-01s">
+			        <a class="nav-link" href="#resume">Resume</a>
+			      </li>
+			      <li class="nav-item animate__animated animate__zoomInDown">
+			        <a class="nav-link" href="#contact">Contact</a>
 			      </li>
 			    </ul>
 				

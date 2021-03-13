@@ -21,20 +21,6 @@
 
   });
 
-// Particle
-tsParticles
-  .loadJSON("programming-language-particles", "http://kuntal/portfolio/portfolio1/assets/particles.json")
-  .then((container) => {
-    console.log("callback - tsparticles config loaded");
-  })
-  .catch((error) => {
-    console.error(error);
-    console.log("erooooooorrrrrrrrrrrrrrrrrrrrrrrrrrrrr")
-  });
-
-const particles = tsParticles.domItem(0);
-particles.play();
-particles.pause();
 
 
 var skillWrapper = document.querySelectorAll(".skill-wrapper");
@@ -64,4 +50,38 @@ $(document).on('submit','form',function(event){
     $('#send-msg').val("Send");
     $('#msg').html("Send Failed!Try again");
   });
+});
+
+$(document).ready(function(){
+  $('.nav-item').click(function(){
+    $('#navbar-container').removeClass('show');
+    $('.mask').hide();
+  });
+
+  $('.navbar-toggler').click(function(){
+    $('.mask').show();
+  });
+  $('#close-menu').click(function(){
+    $('#navbar-container').removeClass('show');
+    $('.mask').hide();
+  });
+
+// Particle
+tsParticles
+  .loadJSON("programming-language-particles", "http://kuntal/portfolio/portfolio1/assets/particles.json")
+  .then((container) => {
+    //console.log("callback - tsparticles config loaded");
+  })
+  .catch((error) => {
+    console.error(error);
+  });
+
+const particles = tsParticles.domItem(0);
+try{
+  particles.play();
+  particles.pause();
+}catch(e){
+  //console.log(e);
+}
+
 });

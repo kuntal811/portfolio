@@ -86,26 +86,55 @@ header{
 #navbar-container{
 	justify-content: center;
 }
-@media (max-width:992px){
-
-#navbar-container{
-	position:absolute;
-	top: 40vh;
-	left: 0;
-	//background: #fff;
+.navbar-nav li:hover{
+	color: white !important;
+	border-bottom: 2px solid white;
+	transition: all 0.5s;
 }
-#navbar-container ul li{
-	background: #fff;
+.navbar-nav .active .nav-link{
+	color: white !important;
+}
+.nav-link{
+	color: #fff !important;
+	font-size: 13px !important;
+}
+.nav-link:hover{
+	color: white !important;
+}
+@media (max-width:992px){
+.mask{
+	position: absolute;
+	height:100%;
+	width:100%;
+	background: rgba(0,0,0,0.4);
+	z-index: 98;
+	display: none;
+}
+#navbar-container {
+	position: absolute;
+	top: 800%;
+	left: 50%;
+	width: 80vw;
+	transform: translate(-50%,-50%);
+	z-index: 99;
+	border-radius: 10px;
+}
+#navbar-container ul li {
+	background: linear-gradient(-45deg,#18C8F0,#E815F4);
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 0 rgba(0,0,0,0.5);
 }
 #navbar-container a{
 	position: relative;
 	display: block;
 	padding: 10px 15px;
+	text-align: center;
 	font-size: 1.2rem;
 	font-weight: bold;
-  	background: -webkit-linear-gradient(#c00ef2,#5f76ff);
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
+	color: #fff !important;
+  	//background: -webkit-linear-gradient(#c00ef2,#5f76ff);
+   //-webkit-background-clip: text;
+   //-webkit-text-fill-color: transparent;
 }
 }
 
@@ -473,4 +502,30 @@ form input[type="text"],form input[type="email"],form textarea{
 	color: #fff;
 	padding: 10px 35px !important;
 	transition: all 0.4s;
+}
+
+/* animation delay */
+.animate__animated.animate__delay-01s {
+	-webkit-animation-delay: 0.1s;
+	animation-delay: 0.1s;
+}
+.animate__animated.animate__delay-02s {
+	-webkit-animation-delay: 0.2s;
+	animation-delay: 0.2s;
+}
+.animate__animated.animate__delay-03s {
+	-webkit-animation-delay: 0.3s;
+	animation-delay: 0.3s;
+}
+.animate__animated.animate__delay-04s {
+	-webkit-animation-delay: 0.4s;
+	animation-delay: 0.4s;
+}
+.animate__animated.animate__delay-05s {
+	-webkit-animation-delay: 0.5s;
+	animation-delay: 0.5s;
+}
+.animate__animated.animate__delay-06s {
+	-webkit-animation-delay: 0.6s;
+	animation-delay: 0.6s;
 }
