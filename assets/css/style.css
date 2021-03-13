@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Courgette&display=swap');
 body{
 background:linear-gradient(to right top, #1ccaee, #00bbff, #00a4ff, #8c7bff, #ea13f4) !important;
-height: 1000vh;
+//height: 1000vh;
 overflow-x:hidden;
 }
 .pre-loader{
@@ -21,7 +21,7 @@ h1,h2,h3,h4,h5,h6{font-family: courgette;font-weight: bold}
 p{font-family:Roboto !important;font-style: italic !important;}
 .br-50{border-radius:50%;}
 
-.bg-svg{
+#home{
 	background: url('../image/banner-bg.svg') no-repeat;
 	background-size: cover;
 	background-position: bottom center;
@@ -76,27 +76,28 @@ h2::after{
 	width:100%;
 }
 header{
-	position: sticky;
-	top: 0;
+	//position: sticky;
+	//top: 0;
 	width: 100%;
-	background: transparent;
-	z-index: 11111;
+	background: #351CC1;
+	//z-index: 11111;
+	box-shadow: 0 0 10px 0 #000;
 }
-#navbarColor03{
+#navbar-container{
 	justify-content: center;
 }
 @media (max-width:992px){
 
-#navbarColor03{
+#navbar-container{
 	position:absolute;
 	top: 40vh;
 	left: 0;
 	//background: #fff;
 }
-#navbarColor03 ul li{
+#navbar-container ul li{
 	background: #fff;
 }
-#navbarColor03 a{
+#navbar-container a{
 	position: relative;
 	display: block;
 	padding: 10px 15px;
@@ -370,6 +371,12 @@ height: auto;
 	border-left: 3px solid #fff;
 	padding: 10px 0 0 29px;
 }
+@media screen and (max-width: 576px){
+	.timeline .timeline-content-container{
+		margin-left: 20px;
+	}
+}
+
 .timeline .timeline-content-container::before{
 	font-family: "Font Awesome 5 Free";
 	display: flex;
@@ -414,6 +421,13 @@ height: auto;
 	background: #E418F4;
 	border-radius:50%;
 }
+@media screen and (max-width: 576px){
+	.timeline .timeline-content-container::before{
+		left : 17px;
+	}
+}
+
+
 
 .contact-image{
 	height: 300px;
@@ -444,6 +458,7 @@ form input[type="text"],form input[type="email"],form textarea{
 .form-control:focus {
   border-bottom: 3px solid #18c8f0;
   color: #fff;
+  transition: all 0.5s;
 }
 .btn-custom {
 	background: linear-gradient(-45deg,#18C8F0,#E815F4) !important;

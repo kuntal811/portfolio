@@ -11,31 +11,25 @@
 
 	<!---- external source  -->
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
-	<!--
+	
 	<link rel="stylesheet" type="text/css" href="assets/vendor/animate.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/vendor/ks-progress/ks-progress.css">
-
-	<link rel="stylesheet" type="text/css" href="assets/vendor/slick/slick.css"/>
-	<link rel="stylesheet" type="text/css" href="assets/vendor/slick/slick-theme.css"/>
 		
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
--->
 
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">	
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 
 </head>
-<body >
+<body>
 <div class="pre-loader"><h2>Loading</h2></div>
 <div class="bg-svg" style="display: none">
 	<header>
 		<nav class="navbar navbar-expand-lg navbar-light bg-transparent">
 			<a class="logo text-white font-weight-bold" href="#">KUNTAL</a>
-			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-container" aria-controls="navbar-container" aria-expanded="false" aria-label="Toggle navigation">
 			    <span class="navbar-toggler-icon"></span>
 			  </button>
 
-			  <div class="collapse navbar-collapse" id="navbarColor03">
+			  <div class="collapse navbar-collapse" id="navbar-container">
 			  	<!--
 			  	<a class="animate__animated animate__zoomInDown" href="#">HOME</a>
 			  	<a class="animate__animated animate__zoomInDown animate__delay-2s" href="#">Profile</a>
@@ -269,7 +263,7 @@
 <!--         PROJECT SECTION           -->
 	<section id="projects" class="section-padding">
 		<div class="row">
-			<div class="col-md-12 pl-4 pr-4 under-line">
+			<div class="col-md-12 pl-4 pr-4 under-line" data-aos="fade-right" data-aos-duration="1000">
 				<h1>Projects</h1>
 			</div>
 		</div>
@@ -294,7 +288,7 @@
 				</div>
 			</div>
 			<div class="col-md-4 pb-3">
-				<div class="card">
+				<div class="card" data-aos="zoom-in-left">
 					<div class="card-header">
 						<div class="project-icon text-center p-3">
 								<span class="project-icon-wrapper p-4 br-50">
@@ -312,7 +306,7 @@
 				</div>
 			</div>
 			<div class="col-md-4 pb-3">
-				<div class="card">
+				<div class="card" data-aos="zoom-in-left">
 					<div class="card-header">
 						<div class="project-icon text-center p-3">
 								<span class="project-icon-wrapper m-4 br-50">
@@ -340,26 +334,26 @@
 	<!--         RESUME SECTION           -->
 	<section id="resume" class="section-padding">
 		<div class="row">
-			<div class="col-md-12 pl-4 pr-4 under-line">
+			<div class="col-md-12 pl-4 pr-4 under-line" data-aos="fade-right" data-aos-duration="1000">
 				<h1>Resume</h1>
 			</div>
 			<div class="col-md-6">
 				<div class="timeline">
 					<div class="timeline-content-container education">
 						<h3>Education</h3>
-						<div class="timeline-content">
+						<div class="timeline-content" data-aos="fade-up" data-aos-duration="3000">
 							<h5>Post Graduation</h5>
 							<h6>2020-Present</h6>
 							<p>I am doing  my MCA from Pondicherry University,Puducherry</p>
 						</div>
 
-						<div class="timeline-content">
+						<div class="timeline-content" data-aos="fade-up" data-aos-duration="3000">
 							<h5>Graduation</h5>
 							<h6>2017-2020</h6>
 							<p>I completed my graduation in B.Sc(Computer Science) from Malda College,Malda</p>
 						</div>
 
-						<div class="timeline-content">
+						<div class="timeline-content" data-aos="fade-up" data-aos-duration="3000">
 							<h5>Higher Secondary</h5>
 							<h6>2015-2017</h6>
 							<p>I completed my higher secondary education from A.C.Institution,Malda</p>
@@ -371,17 +365,17 @@
 				<div class="timeline">
 					<div class="timeline-content-container experience">
 						<h3>Experience</h3>
-						<div class="timeline-content">
+						<div class="timeline-content" data-aos="fade-up" data-aos-duration="3000">
 							<h5>Shining Tomorrow Foundation</h5>
 							<h6>Jan 2021 - Mar 2021 </h6>
 							<p>Joined as a Web Developer intern and make a multi-type quiz portal and got a SHINER award.</p>
 						</div>
-						<div class="timeline-content">
+						<div class="timeline-content" data-aos="fade-up" data-aos-duration="3000">
 							<h5>SobarBazar Malda</h5>
 							<h6>Sept 2020 - Nov 2020</h6>
 							<p>Built a E-commerce website in WordPress CMS and maintained it.</p>
 						</div>
-						<div class="timeline-content">
+						<div class="timeline-content" data-aos="fade-up" data-aos-duration="3000">
 							<h5>Malda Nattyasena</h5>
 							<h6>2019-Present</h6>
 							<p>Built a ticket booking website for Malda Nattyasena and I'm maintaining it now.</p>
@@ -392,32 +386,32 @@
 		</div>
 	</section>
 	<!--         PROJECT SECTION           -->
-	<section id="contact" class="section-padding mt-md-5">
+	<section id="contact" class="section-padding mt-md-5 mb-5">
 		<div class="row mb-md-5">
-			<div class="col-md-12 pl-4 pr-4 under-line">
+			<div class="col-md-12 pl-4 pr-4 under-line" data-aos="fade-right" data-aos-duration="1000">
 				<h1>Contact</h1>
 			</div>
 		</div>
-		<div class="row ml-5 mr-5 align-items-center">
-			<div class="col-md-6">
-				<img class = "contact-image" src="assets/image/contact.svg">
+		<div class="row ml-md-5 mr-md-5 align-items-center">
+			<div class="col-md-6" data-aos="zoom-in-right" data-aos-duration="1000">
+				<img class ="d-block mx-auto contact-image" src="assets/image/contact.svg">
 			</div>
 			<div class="col-md-6">
 				<div class="contact-form">
 					<form action="#" method="post">
-						<div class="form-group">
+						<div class="form-group" data-aos="fade-left" data-aos-duration="2000">
 							<input type="text" name ="name" id="name" class="form-control" placeholder="Enter Your Name">
 						</div>
-						<div class="form-group">
+						<div class="form-group" data-aos="fade-left" data-aos-duration="2000">
 							<input type="email" name="email" id ="email" class="form-control" placeholder="Enter Email">
 						</div>
-						<div class="form-group">
+						<div class="form-group" data-aos="fade-left" data-aos-duration="2000">
 							<input type="text" name="subject" id ="subject" class="form-control" placeholder="Enter Subject">
 						</div>
-						<div class="form-group">
+						<div class="form-group" data-aos="fade-left" data-aos-duration="2000">
 							<textarea name="message" class="form-control" id="message" placeholder="Enter Your Message"></textarea>
 						</div>
-						<div class="form-group text-center">
+						<div class="form-group text-center" data-aos="fade-left" data-aos-duration="2000">
 							<input type="submit" id="send-msg" class="btn btn-custom" value ="Send">
 						</div>
 						<div id="msg" class="font-weight-bold text-center"></div>
@@ -440,6 +434,7 @@
 
 <script src="assets/js/main.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 <script type="text/javascript">
 	$(function() {
 	  AOS.init();
