@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Courgette&display=swap');
+html{
+	overflow-x: hidden;
+}
 body{
 background:linear-gradient(to right top, #1ccaee, #00bbff, #00a4ff, #8c7bff, #ea13f4) !important;
-//height: 1000vh;
 overflow-x:hidden;
 }
 .pre-loader{
