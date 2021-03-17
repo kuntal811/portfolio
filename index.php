@@ -32,7 +32,6 @@
 	  <div class="item6"></div>
 	  <div class="item7"></div>
 	  <div class="item8"></div>
-	  <h1>LOADING</h1>
 	</div>
 </div>
 <div class="mask"></div>
