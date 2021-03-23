@@ -20,6 +20,7 @@
 
 </head>
 <body>
+	<div id="programming-language-particles"></div>
 <div class="pre-loader">
 	<div id="container">
 	  <div class="item11"></div>
@@ -94,7 +95,7 @@
 	<!-- -------->
 
 	<section id="home">
-		<div id="programming-language-particles"></div>
+		
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-md-8">
@@ -155,24 +156,48 @@
 			<div class="col-md-12 pl-4 pr-4 under-line" data-aos="fade-right" data-aos-duration="1000"><h1>Profile</h1></div>
 		</div>
 		<div class="row profile-container">
-			<div class="col-md-6 d-flex">
+			<div class="col-md-6">
 				<div data-aos="zoom-in-right" data-aos-duration="1000" class="profile-image-container position-relative mx-auto align-self-center">
-					<img src="assets/image/Onboarding.svg"/>
+					<img src="assets/image/kuntal_sarkar.png"/>
 				</div>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6 d-flex align-self-center">
 				<div class="profile-data p-2" data-aos="zoom-in-left" data-aos-duration="1000">
 					<h3>Hey, I'm Kuntal</h3>
 					<p class="text-justify pt-3"> I am a Web Developer. I can provide clean code and pixel perfect design. I also make website more & more interactive with web animations. 
 					</p>
 					<div class="profile-content">
 							<ul class="d-flex flex-column list-unstyled">
-								<li class=""><b>Full Name</b> Kuntal Sarkar</li>
-								<li class=""><b>Date of Birth</b> 22-11-1998</li>
-								<li class=""><b>Language</b> Bengali, English ,Hindi</li>
-								<li class=""><b>Freelance</b> Avaiable</li>
-								<li class=""><b>Job Status</b> Available</li>
-								<li class=""><b>Address</b>Malda,West Bengal,India </li>
+								<li class="">
+									<p>
+										<b>Full Name</b> Kuntal Sarkar
+									</p>
+								</li>
+								<li class="">
+									<p>
+										<b>Date of Birth</b> 22-11-1998
+									</p>
+								</li>
+								<li class="">
+									<p>
+										<b>Language</b> Bengali, English ,Hindi
+									</p>
+								</li>
+								<li class="">
+									<p>
+										<b>Freelance</b> Avaiable
+									</p>
+								</li>
+								<li class="">
+									<p>
+										<b>Job Status</b> Available
+									</p>
+								</li>
+								<li class="">
+									<p>
+										<b>Address</b>Malda,West Bengal,India 
+									</p>
+								</li>
 							</ul>
 					</div>
 					<div class="profile-btn p-4">
@@ -209,69 +234,6 @@
 		</div>
 	</section>
 
-	<!--         old SKILL SECTION           -->
-<!--
-	<section id="skill" class="section-padding">
-		<div class="row">
-			<div class="col-md-12 pl-4 pr-4 under-line" data-aos="fade-right" data-aos-duration="1000">
-				<h1>Skills</h1>
-			</div>
-		</div>
-		<div class="row justify-content-center align-items-center mt-80px">
-			<div class="col-md-10 mx-auto skill-slide p-4">
-				<div class="single-skill">
-					<div class="ks-progress mx-auto" data-size="80" data-thickness="12" data-color="#229922" data-background="#fff" data-progress="55" data-speed="500">
-	                    <div class="ks-progress-content" data-vcenter="true">
-	                        <img class="d-block mx-auto" height="40" width="40" src="assets/image/icon/html.svg">
-	                    </div>
-	                </div>
-            	</div>
-            	<div class="single-skill">
-					<div class="ks-progress mx-auto" data-size="80" data-thickness="12" data-color="#229922" data-background="#fff" data-progress="35" data-speed="500">
-	                    <div class="ks-progress-content" data-vcenter="true">
-	                        <img class="d-block mx-auto" height="40" width="40" src="assets/image/icon/css.svg">
-	                    </div>
-	                </div>
-            	</div>
-            	<div class="single-skill">
-					<div class="ks-progress mx-auto" data-size="80" data-thickness="12" data-color="#229922" data-background="#fff" data-progress="55" data-speed="500">
-	                    <div class="ks-progress-content" data-vcenter="true">
-	                        <img class="d-block mx-auto" height="40" width="40" src="assets/image/icon/javascript.svg">
-	                    </div>
-	                </div>
-            	</div>
-            	<div class="single-skill">
-					<div class="ks-progress mx-auto" data-size="80" data-thickness="15" data-color="#229922" data-background="#fff" data-progress="85" data-speed="500">
-	                    <div class="ks-progress-content" data-vcenter="true">
-	                        <img class="d-block mx-auto" height="40" width="40" src="assets/image/icon/jquery.svg">
-	                    </div>
-	                </div>
-            	</div>
-            	<div class="single-skill">
-					<div class="ks-progress mx-auto" data-size="80" data-thickness="12" data-color="#229922" data-background="#fff" data-progress="85" data-speed="500">
-	                    <div class="ks-progress-content" data-vcenter="true">
-	                        <img class="d-block mx-auto" height="40" width="40" src="assets/image/icon/php.svg">
-	                    </div>
-	                </div>
-            	</div>
-            	<div class="single-skill">
-					<div class="ks-progress mx-auto" data-size="80" data-thickness="12" data-color="#229922" data-background="#fff" data-progress="85" data-speed="500">
-	                    <div class="ks-progress-content" data-vcenter="true">
-	                        <img class="d-block mx-auto" height="40" width="40" src="assets/image/icon/codeigniter.svg">
-	                    </div>
-	                </div>
-            	</div>
-            	<div class="single-skill">
-					<div class="ks-progress mx-auto" data-size="80" data-thickness="12" data-color="#229922" data-background="#fff" data-progress="65" data-speed="500">
-	                    <div class="ks-progress-content" data-vcenter="true">
-	                        <img class="d-block mx-auto" height="40" width="40" src="assets/image/icon/python.svg">
-	                    </div>
-	                </div>
-            	</div>
-			</div>
-		</div>
-	</section>
--->
 
 
 <!--         PROJECT SECTION           -->
@@ -281,7 +243,6 @@
 				<h1>Projects</h1>
 			</div>
 		</div>
-	<?php for($i=0;$i<2;$i++):?>
 		<div class="row mt-5">
 			<div class="col-md-4 pb-3 align-items-stretch">
 				<div class="card" data-aos="zoom-in-left" data-aos-duration="2000">
@@ -340,7 +301,66 @@
 				</div>
 			</div>
 		</div>
-	<?php endfor ?>
+		<div class="row mt-5">
+			<div class="col-md-4 pb-3 align-items-stretch">
+				<div class="card" data-aos="zoom-in-left" data-aos-duration="2000">
+					<div class="card-header">
+						<div class="project-icon text-center p-3">
+								<span class="project-icon-wrapper m-4 br-50">
+									<img src="assets/image/project/icon/ticket_booking.jpg"class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow">
+								</span>
+						</div>
+						<h3 class="card-title text-center">EasyCompress</h3>
+					</div>
+					<div class="card-body">
+						<p class="text-white text-justify">EasyCompress is the easiest photo compressor website. Just upload and compress the photo as your need by using a single slider.</p>
+						<div class="project-link text-right">
+							<a href="https://easycompress.herokuapp.com/" target="_blank">
+								<i class="fa fa-arrow-right bg-white p-3 br-50" aria-hidden="true"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 pb-3">
+				<div class="card" data-aos="zoom-in-left" data-aos-duration="2000">
+					<div class="card-header">
+						<div class="project-icon text-center p-3">
+								<span class="project-icon-wrapper p-4 br-50">
+									<img src="assets/image/project/icon/sobarbazar_malda.png"class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow">
+								</span>
+						</div>
+						<h3 class="card-title text-center">SobarBazar Malda</h3>
+					</div>
+					<div class="card-body">
+						<p class="text-white text-justify">SobarBazar Malda is a online grocery supermarket website made on Wordpress CMS and it has a android application also. This website has all the features a ecommerce website needs.</p>
+						<div class="project-link text-right">
+							<i class="fa fa-arrow-right bg-white p-3 br-50" aria-hidden="true"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 pb-3">
+				<div class="card" data-aos="zoom-in-left" data-aos-duration="2000">
+					<div class="card-header">
+						<div class="project-icon text-center p-3">
+								<span class="project-icon-wrapper m-4 br-50">
+									<img src="assets/image/project/icon/automatic_attendance.png" class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow">
+								</span>
+						</div>
+						<h3 class="card-title text-center">Automatic Attendance</h3>
+					</div>
+					<div class="card-body">
+						<p class="text-white text-justify">Automatic Attendance using Face Recognition is a application made using Python, EEL JS, HTML and CSS. I built this project in final year of my graduation.</p>
+						<div class="project-link text-right">
+							<a href="https://github.com/kuntal811/"  target="_blank">
+								<i class="fa fa-arrow-right bg-white p-3 br-50" aria-hidden="true"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
 
 
@@ -399,7 +419,25 @@
 			</div>
 		</div>
 	</section>
-	<!--         PROJECT SECTION           -->
+
+	<!--         AWARD SECTION           -->
+	<section id="contact" class="section-padding mt-md-5 mb-5">
+		<div class="row mb-md-5">
+			<div class="col-md-12 pl-4 pr-4 under-line" data-aos="fade-right" data-aos-duration="1000">
+				<h1>AWARD</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<img src="assets/image/award/SHINER_AWARD.jpg" width="100%">
+			</div>
+		</div>
+
+	</section>
+
+
+
+	<!--         CONTACT SECTION           -->
 	<section id="contact" class="section-padding mt-md-5 mb-5">
 		<div class="row mb-md-5">
 			<div class="col-md-12 pl-4 pr-4 under-line" data-aos="fade-right" data-aos-duration="1000">
@@ -433,8 +471,12 @@
 				</div>
 			</div>
 		</div>
-</div>
+	</section>
 
+
+<footer class="footer p-4">
+	<p class="text-center">Made With <span style="color :red;">&hearts;</span> By Kuntal Sarkar</p>
+</footer>
 
 <script type="text/javascript" src="https://kit.fontawesome.com/e97332543f.js"></script>
 <script src="assets/vendor/tsparticles.min.js"></script>
