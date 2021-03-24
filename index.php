@@ -479,13 +479,13 @@
 <footer class="footer p-4">
 	<p class="text-center">&copy;<b>All Right Reserved<b></p>
 	<p class="text-center">Made With <span style="color :red;">&hearts;</span> <b>By Kuntal Sarkar<b></p>
-		<!-- hitwebcounter Code START -->
-	<a class="text-center" href="https://www.hitwebcounter.com" target="_blank">
-		<img src="https://hitwebcounter.com/counter/counter.php?page=7768000&style=0001&nbdigits=5&type=page&initCount=0" title="Free Counter" Alt="web counter"   border="0" />
-	</a>
-	<a class="text-center" href="https://www.freecounterstat.com" title="website view counter"><img src="https://counter4.stat.ovh/private/freecounterstat.php?c=4b5l6kt2zazpq8y85x4bc1dfr6pzynuj" border="0" title="website view counter" alt="website view counter"></a>
-</footer>
 
+	<!-- hitwebcounter Code START -->
+	<a class="d-block text-center" href="https://www.hitwebcounter.com" target="_blank">
+	<img src="https://hitwebcounter.com/counter/counter.php?page=7768030&style=0028&nbdigits=5&type=page&initCount=200" title="Free Counter" Alt="web counter"   border="0" /></a>  
+
+
+</footer>
 <script type="text/javascript" src="https://kit.fontawesome.com/e97332543f.js"></script>
 <script src="assets/vendor/tsparticles.min.js"></script>
 <script src="assets/vendor/typed.js@2.0.11.js"></script>
