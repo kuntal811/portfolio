@@ -481,8 +481,8 @@
 	<p class="text-center">Made With <span style="color :red;">&hearts;</span> <b>By Kuntal Sarkar<b></p>
 
 	<!-- hitwebcounter Code START -->
-	<a class="d-block text-center" href="https://www.hitwebcounter.com" target="_blank">
-	<img src="https://hitwebcounter.com/counter/counter.php?page=7768030&style=0028&nbdigits=5&type=page&initCount=200" title="Free Counter" Alt="web counter"   border="0" /></a>  
+	<a href="https://www.hitwebcounter.com" target="_blank">
+	<img class="d-block mx-auto" src="https://hitwebcounter.com/counter/counter.php?page=7768043&style=0025&nbdigits=5&type=page&initCount=200" title="Free Counter" Alt="web counter"   border="0" /></a>                
 
 
 </footer>
