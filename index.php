@@ -77,13 +77,6 @@
 			        <a class="nav-link" href="#contact">Contact</a>
 			      </li>
 			    </ul>
-				
-			    <!--
-			    <form class="form-inline my-2 my-lg-0">
-			      <input class="form-control mr-sm-2" type="text" placeholder="Search">
-			      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-			    </form>
-				-->
 			  </div>
 			</nav>
 	</header>
@@ -92,7 +85,7 @@
 
 
 
-	<!-- -------->
+	<!--       HOMEHOME SECTION           -->
 
 	<section id="home">
 		
@@ -115,10 +108,10 @@
 							I am a full stack web developer with experience building websites and web applications. I specialize in PHP and also in the CodeIgniter framework and have experience working with Python.
 						</p>
 						<div class="social-link">
-							<a href="" class="">
+							<a href="http://www.facebook.com/kuntalsarkar0000" class="">
 								<i class="fa fa-facebook animate__animated animate__jackInTheBox animate__delay-3s animate__slow" aria-hidden="true" ></i>
 							</a>
-							<a href="" class="">
+							<a href="https://www.instagram.com/kuntal_adi/" class="">
 								<i class="fa fa-instagram animate__animated animate__jackInTheBox animate__delay-3s animate__slow" aria-hidden="true"></i>
 							</a>
 							<!--
@@ -126,7 +119,7 @@
 								<i class="fa fa-twitter animate__animated animate__jackInTheBox animate__delay-3s animate__slow" aria-hidden="true"></i>
 							</a>
 							-->
-							<a href="" class="">
+							<a href="https://www.linkedin.com/in/kuntal811/" class="">
 								<i class="fa fa-linkedin animate__animated animate__jackInTheBox animate__delay-3s animate__slow" aria-hidden="true"></i>
 							</a>
 							<a href="" class="">
@@ -430,7 +423,7 @@
 			</div>
 		</div>
 		<div class="row mt-5">
-			<div class="col-md-4 award-img-container">
+			<div class="col-md-4 award-img-container" data-aos="zoom-in-left" data-aos-duration="2000">
 				<img class="award-img m-sm-2" src="assets/image/award/SHINER_AWARD.jpg" width="100%">
 			</div>
 		</div>
