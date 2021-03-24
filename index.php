@@ -156,12 +156,12 @@
 			<div class="col-md-12 pl-4 pr-4 under-line" data-aos="fade-right" data-aos-duration="1000"><h1>Profile</h1></div>
 		</div>
 		<div class="row profile-container">
-			<div class="col-md-6">
+			<div class="col-md-6 d-flex">
 				<div data-aos="zoom-in-right" data-aos-duration="1000" class="profile-image-container position-relative mx-auto align-self-center">
 					<img src="assets/image/kuntal_sarkar.png"/>
 				</div>
 			</div>
-			<div class="col-md-6 d-flex align-self-center">
+			<div class="col-md-6 d-flex align-self-center mt-sm-4">
 				<div class="profile-data p-2" data-aos="zoom-in-left" data-aos-duration="1000">
 					<h3>Hey, I'm Kuntal</h3>
 					<p class="text-justify pt-3"> I am a Web Developer. I can provide clean code and pixel perfect design. I also make website more & more interactive with web animations. 
@@ -185,7 +185,7 @@
 								</li>
 								<li class="">
 									<p>
-										<b>Freelance</b> Avaiable
+										<b>Freelance</b> Available
 									</p>
 								</li>
 								<li class="">
@@ -195,7 +195,7 @@
 								</li>
 								<li class="">
 									<p>
-										<b>Address</b>Malda,West Bengal,India 
+										<b>Address</b>Malda, West Bengal, India 
 									</p>
 								</li>
 							</ul>
@@ -371,6 +371,8 @@
 			<div class="col-md-12 pl-4 pr-4 under-line" data-aos="fade-right" data-aos-duration="1000">
 				<h1>Resume</h1>
 			</div>
+		</div>
+		<div class="row mt-5">
 			<div class="col-md-6">
 				<div class="timeline">
 					<div class="timeline-content-container education">
@@ -421,15 +423,15 @@
 	</section>
 
 	<!--         AWARD SECTION           -->
-	<section id="contact" class="section-padding mt-md-5 mb-5">
+	<section id="award" class="section-padding mt-md-5 mb-5">
 		<div class="row mb-md-5">
 			<div class="col-md-12 pl-4 pr-4 under-line" data-aos="fade-right" data-aos-duration="1000">
 				<h1>AWARD</h1>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-md-4">
-				<img src="assets/image/award/SHINER_AWARD.jpg" width="100%">
+		<div class="row mt-5">
+			<div class="col-md-4 award-img-container">
+				<img class="award-img m-sm-2" src="assets/image/award/SHINER_AWARD.jpg" width="100%">
 			</div>
 		</div>
 
@@ -444,7 +446,7 @@
 				<h1>Contact</h1>
 			</div>
 		</div>
-		<div class="row ml-md-5 mr-md-5 align-items-center">
+		<div class="row ml-md-5 mr-md-5 align-items-center mt-5">
 			<div class="col-md-6" data-aos="zoom-in-right" data-aos-duration="2000">
 				<img class ="d-block mx-auto contact-image" src="assets/image/contact.svg">
 			</div>
@@ -475,7 +477,8 @@
 
 
 <footer class="footer p-4">
-	<p class="text-center">Made With <span style="color :red;">&hearts;</span> By Kuntal Sarkar</p>
+	<p class="text-center">&copy;<b>All Right Reserved<b></p>
+	<p class="text-center">Made With <span style="color :red;">&hearts;</span> <b>By Kuntal Sarkar<b></p>
 </footer>
 
 <script type="text/javascript" src="https://kit.fontawesome.com/e97332543f.js"></script>
