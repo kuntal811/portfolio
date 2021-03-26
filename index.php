@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta lang="en">
-	<meta name="theme-color" content="00A9FF">
+	<meta name="theme-color" content="#00A9FF">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Open Graph tag -->
 	<meta name="og:url" content="https://kuntalsarkar.herokuapp.com/">
@@ -129,7 +129,7 @@
 							<a href="https://wa.me/+918116763585?text=hello Kuntal" class="">
 								<i class="fa fa-whatsapp animate__animated animate__jackInTheBox  animate__delay-3s animate__slow" aria-hidden="true"></i>
 							</a>
-							<a href="Tel:918116763585"><i class="fa fa-phone animate__animated animate__jackInTheBox animate__delay-3s animate__slow" aria-hidden="true"></i>
+							<a href="Tel:+918116763585"><i class="fa fa-phone animate__animated animate__jackInTheBox animate__delay-3s animate__slow" aria-hidden="true"></i>
 							</a>
 						</div>
 					</div>
