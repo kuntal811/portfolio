@@ -11,7 +11,11 @@
 	<meta name="og:description"	content="I am a full stack web developer with experience building websites and web applications. I specialize in PHP and also in the CodeIgniter framework and have experience working with Python.">
 	<meta name="og:updated_time" content ="1616726386">
 	<meta name="og:title" content="Kuntal Sarkar | Portfolio">
-
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+	<link rel="manifest" href="assets/favicon//site.webmanifest">
 	<title>Portfolio | Kuntal Sarkar</title>
 	<meta name="description" content="Hey,I'm Kuntal Sarkar.I am a full stack web developer with experience building websites and web applications. I specialize in PHP and also in the CodeIgniter framework and have experience working with Python.">
 	<meta name="keywords" content="Kuntal Sarkar Portfolio,Kuntal's portfolio">
@@ -295,7 +299,7 @@
 					<div class="card-header">
 						<div class="project-icon text-center p-3">
 								<span class="project-icon-wrapper m-4 br-50">
-									<img src="assets/image/project/icon/ticket_booking.jpg"class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow" alt="">
+									<img src="assets/image/project/icon/easycompress.png"class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow" alt="">
 								</span>
 						</div>
 						<h3 class="card-title text-center">EasyCompress</h3>
@@ -304,44 +308,6 @@
 						<p class="text-white text-justify">EasyCompress is the easiest photo compressor website. Just upload and compress the photo as your need by using a single slider.</p>
 						<div class="project-link text-right">
 							<a href="https://easycompress.herokuapp.com/" target="_blank">
-								<i class="fa fa-arrow-right bg-white p-3 br-50" aria-hidden="true"></i>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 pb-3">
-				<div class="card" data-aos="zoom-in-left" data-aos-duration="2000">
-					<div class="card-header">
-						<div class="project-icon text-center p-3">
-								<span class="project-icon-wrapper p-4 br-50">
-									<img src="assets/image/project/icon/sobarbazar_malda.png"class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow" alt="">
-								</span>
-						</div>
-						<h3 class="card-title text-center">SobarBazar Malda</h3>
-					</div>
-					<div class="card-body">
-						<p class="text-white text-justify">SobarBazar Malda is a online grocery supermarket website made on Wordpress CMS and it has a android application also. This website has all the features a ecommerce website needs.</p>
-						<div class="project-link text-right">
-							<i class="fa fa-arrow-right bg-white p-3 br-50" aria-hidden="true"></i>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 pb-3">
-				<div class="card" data-aos="zoom-in-left" data-aos-duration="2000">
-					<div class="card-header">
-						<div class="project-icon text-center p-3">
-								<span class="project-icon-wrapper m-4 br-50">
-									<img src="assets/image/project/icon/automatic_attendance.png" class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow" alt="">
-								</span>
-						</div>
-						<h3 class="card-title text-center">Automatic Attendance</h3>
-					</div>
-					<div class="card-body">
-						<p class="text-white text-justify">Automatic Attendance using Face Recognition is a application made using Python, EEL JS, HTML and CSS. I built this project in final year of my graduation.</p>
-						<div class="project-link text-right">
-							<a href="https://github.com/kuntal811/"  target="_blank">
 								<i class="fa fa-arrow-right bg-white p-3 br-50" aria-hidden="true"></i>
 							</a>
 						</div>
