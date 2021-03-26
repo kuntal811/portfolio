@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta lang="en">
-	<meta name="theme-color" content="#00A9FF">
+	<meta name="theme-color" content="#351CC1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Open Graph tag -->
 	<meta name="og:url" content="https://kuntalsarkar.herokuapp.com/">
