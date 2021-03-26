@@ -9,7 +9,7 @@
 	<meta name="og:url" content="http://kuntalsarkar.live/">
 	<meta name="og:image" content="https://kuntalsarkar.herokuapp.com/assets/image/self/KUNTAL.jpg">
 	<meta name="og:description"	content="I am a full stack web developer with experience building websites and web applications. I specialize in PHP and also in the CodeIgniter framework and have experience working with Python.">
-	<meta name="og:updated_time" content ="1616726386">
+	<meta name="og:updated_time" content ="1616788179">
 	<meta name="og:title" content="Kuntal Sarkar | Portfolio">
 	<!-- favicon -->
 	<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
