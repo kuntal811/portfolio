@@ -6,8 +6,8 @@
 	<meta name="theme-color" content="#351CC1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Open Graph tag -->
-	<meta name="og:url" content="https://kuntalsarkar.live/">
-	<meta name="og:image" content="https://kuntalsarkar.live/assets/image/self/KUNTAL.jpg">
+	<meta name="og:url" content="http://kuntalsarkar.live/">
+	<meta name="og:image" content="http://kuntalsarkar.live/assets/image/self/KUNTAL.jpg">
 	<meta name="og:description"	content="I am a full stack web developer with experience building websites and web applications. I specialize in PHP and also in the CodeIgniter framework and have experience working with Python.">
 	<meta name="og:updated_time" content ="1616726386">
 	<meta name="og:title" content="Kuntal Sarkar | Portfolio">
