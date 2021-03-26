@@ -8,96 +8,89 @@ overflow-x:hidden;
 }
 
 .pre-loader{
-	position: absolute;
+	position: fixed;
 	width: 100%;
 	height: 100%;
-	background: #194368;
+	background: #1ccaee;
+	background:linear-gradient(to right top, #1ccaee, #00bbff, #00a4ff, #8c7bff, #ea13f4) !important;
 	z-index: 99999;
 
 }
-
-#container{
+@keyframes ldio-sngfxecnt2-1 {
+    0% { transform: rotate(0deg) }
+   50% { transform: rotate(-45deg) }
+  100% { transform: rotate(0deg) }
+}
+@keyframes ldio-sngfxecnt2-2 {
+    0% { transform: rotate(180deg) }
+   50% { transform: rotate(225deg) }
+  100% { transform: rotate(180deg) }
+}
+.ldio-sngfxecnt2 > div:nth-child(2) {
+  transform: translate(-15px,0);
+}
+.ldio-sngfxecnt2 > div:nth-child(2) div {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  width: 120px;
+  height: 60px;
+  border-radius: 120px 120px 0 0;
+  background: #f8b26a;
+  background: linear-gradient(to right,#1345e6 0%,#ed239f 51%,#1345e6 100%) !important;
+  background: #194368;
+  animation: ldio-sngfxecnt2-1 1s linear infinite;
+  transform-origin: 60px 60px
+}
+.ldio-sngfxecnt2 > div:nth-child(2) div:nth-child(2) {
+  animation: ldio-sngfxecnt2-2 1s linear infinite
+}
+.ldio-sngfxecnt2 > div:nth-child(2) div:nth-child(3) {
+  background: linear-gradient(#ed239f 87%,transparent)!important;
+  transform: rotate(-90deg);
+  animation: none;
+}@keyframes ldio-sngfxecnt2-3 {
+    0% { transform: translate(190px,0); opacity: 0 }
+   20% { opacity: 1 }
+  100% { transform: translate(70px,0); opacity: 1 }
+}
+.ldio-sngfxecnt2 > div:nth-child(1) {
+  display: block;
+}
+.ldio-sngfxecnt2 > div:nth-child(1) div {
+  position: absolute;
+  top: 92px;
+  left: -8px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #1345e6;
+  //background: linear-gradient(to right,#1345e6 0%,#ed239f 51%,#1345e6 100%) !important;
+  animation: ldio-sngfxecnt2-3 1s linear infinite
+}
+.ldio-sngfxecnt2 > div:nth-child(1) div:nth-child(1) { background:#00afff!important;animation-delay: -0.67s }
+.ldio-sngfxecnt2 > div:nth-child(1) div:nth-child(2) { background:#ed239f!important;animation-delay: -0.33s }
+.ldio-sngfxecnt2 > div:nth-child(1) div:nth-child(3) { background: #1345e6!important;animation-delay: 0s }
+.loadingio-spinner-bean-eater-dvix9p7jqff {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  height: 300px;
-  width: 300px;
-  perspective: 3000px;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+  background: transparent;
 }
-
-@keyframes animate{
-  0%{top: 0%;transform: translate(-50%,-50%) rotateX(60deg) rotatez(0deg);}
-  50%{top:90%;transform:translate(-50%,-50%) rotateX(60deg) rotatez(250deg);}
-  100%{top: 0%;transform: translate(-50%,-50%) rotateX(60deg) rotatez(360deg);}
+.ldio-sngfxecnt2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
 }
-#container > div{
-  position: absolute;
-  top:50%;
-  left:50%;
-  transform: translate(-50%,-50%) rotateX(60deg);
-  border-left: 2px solid #FEE140;
-  border-top: 2px solid #FA709A;
-  border-right: 2px solid #6B7BFD;
-  border-bottom: 2px solid #14C8CC ;
-  border-radius: 50%;
-  animation: animate 2s infinite ease-out;
-  transform-style: preserve-3d;
-}
-
-#container .item11{
-  height:2px;
-  width:2px;
-  animation-delay: 0s;
-}
-#container .item12{
-  height:10px;
-  width:10px;
-  transition: 0.5s;
-  animation-delay: 0.2s;
-}
-#container .item1{
-  height:20px;
-  width:20px;
-  animation-delay: 0.3s;
-}
-#container .item2{
-  height:60px;
-  width:60px;
-  animation-delay: 0.4s;
-}
-#container .item3{
-  height:100px;
-  width:100px;
-  animation-delay: 0.5s;
-}
-#container .item4{
-  height: 140px;
-  width: 140px;
-  animation-delay: 0.6s;
-}
-#container .item5{
-  height: 180px;
-  width: 180px;
-  animation-delay: 0.7s;
-}
-#container .item6{
-  height:220px;
-  width: 220px;
-  animation-delay: 0.8s;
-}
-#container .item7{
-  height:260px;
-  width:260px;
-  animation-delay: 0.9s;
-}
-#container .item8{
-  height:300px;
-  width:300px;
-  animation-delay:1s;
-}
-
-
+.ldio-sngfxecnt2 div { box-sizing: content-box; }
 
 
 
@@ -196,7 +189,7 @@ header{
 	display: inline-block;
 }
 .mask{
-	position: absolute;
+	position: fixed;
 	height:100%;
 	width:100%;
 	background: rgba(0,0,0,0.4);
@@ -212,6 +205,12 @@ header{
 	z-index: 99;
 	border-radius: 10px;
 }
+@media (max-height:600px){
+	#navbar-container {
+		top:600%;
+	}
+}
+
 #navbar-container ul li {
 	background: linear-gradient(-45deg,#18C8F0,#E815F4);
 	border-radius: 10px;

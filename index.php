@@ -6,11 +6,11 @@
 	<meta name="theme-color" content="#351CC1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Open Graph tag -->
-	<meta name="og:url" content="https://kuntalsarkar.herokuapp.com/">
-	<meta name="og:image" content="https://kuntalsarkar.herokuapp.com/assets/image/self/KUNTAL.jpg">
+	<meta name="og:url" content="https://kuntalsarkar.live/">
+	<meta name="og:image" content="https://kuntalsarkar.live/assets/image/self/KUNTAL.jpg">
 	<meta name="og:description"	content="I am a full stack web developer with experience building websites and web applications. I specialize in PHP and also in the CodeIgniter framework and have experience working with Python.">
 	<meta name="og:updated_time" content ="1616726386">
-	<meta name="og:title" content="kuntalsarkar.herokuapp.com">
+	<meta name="og:title" content="Kuntal Sarkar | Portfolio">
 
 	<title>Portfolio | Kuntal Sarkar</title>
 	<meta name="description" content="Hey,I'm Kuntal Sarkar.I am a full stack web developer with experience building websites and web applications. I specialize in PHP and also in the CodeIgniter framework and have experience working with Python.">
@@ -26,18 +26,9 @@
 <body>
 	<div id="programming-language-particles"></div>
 <div class="pre-loader">
-	<div id="container">
-	  <div class="item11"></div>
-	  <div class="item12"></div>
-	  <div class="item1"></div>
-	  <div class="item2"></div>
-	  <div class="item3"></div>
-	  <div class="item4"></div>
-	  <div class="item5"></div>
-	  <div class="item6"></div>
-	  <div class="item7"></div>
-	  <div class="item8"></div>
-	</div>
+	<div class="loadingio-spinner-bean-eater-dvix9p7jqff"><div class="ldio-sngfxecnt2">
+	<div><div></div><div></div><div></div></div><div><div></div><div></div><div></div></div>
+	</div></div>
 </div>
 <div class="mask"></div>
 <div class="bg-svg">
@@ -489,18 +480,8 @@
 <script src="assets/vendor/typed.js@2.0.11.js"></script>
 <script src="assets/vendor/tsparticles.min.js"></script>
 <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script src="assets/js/main.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-<script type="text/javascript">
-	$(function() {
-	  AOS.init();
-	});
-
-	(function() {
-	emailjs.init("user_s4WUI4oCJ1m8PkCE1W08f");
-	})();
-
-</script>
+<script src="assets/js/main.js"></script>
 </body>
 </html>

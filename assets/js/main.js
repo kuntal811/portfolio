@@ -1,4 +1,11 @@
-  $(document).ready(function(){
+$(function() {
+    AOS.init();
+  });
+
+(function() {
+  emailjs.init("user_s4WUI4oCJ1m8PkCE1W08f");
+  })();
+$(window).on('load',function(){
     $('.pre-loader').css("display", "none");
   	$('.bg-svg').css("display", "block");
   });
@@ -18,6 +25,9 @@
   	//console.log(hdr_height+"->"+scroll_height);
   	$color = (scroll_height > hdr_height)? 'transparent' : '#351cc1';
   	$('header').css("background",$color);
+    //hide menu
+    $('#navbar-container').removeClass('show');
+    $('.mask').hide();
 
   });
 
