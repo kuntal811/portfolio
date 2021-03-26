@@ -1,22 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta lang="en">
 	<meta name="theme-color" content="00A9FF">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title></title>
-	<meta name="description" content="">
-	<meta name="keywords" content="">
+	<!-- Open Graph tag -->
+	<meta name="og:url" content="https://kuntalsarkar.herokuapp.com/">
+	<meta name="og:image" content="https://kuntalsarkar.herokuapp.com/assets/image/self/KUNTAL.jpg">
+	<meta name="og:description"	content="I am a full stack web developer with experience building websites and web applications. I specialize in PHP and also in the CodeIgniter framework and have experience working with Python.">
+	<meta name="og:updated_time" content ="1616726386">
+	<meta name="og:title" content="kuntalsarkar.herokuapp.com">
 
-	<!---- external source  -->
+	<title>Portfolio | Kuntal Sarkar</title>
+	<meta name="description" content="Hey,I'm Kuntal Sarkar.I am a full stack web developer with experience building websites and web applications. I specialize in PHP and also in the CodeIgniter framework and have experience working with Python.">
+	<meta name="keywords" content="Kuntal Sarkar Portfolio,Kuntal's portfolio">
+
+	<!-- style sheets  -->
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
-	
-	<link rel="stylesheet" type="text/css" href="assets/vendor/animate.min.css">
-		
-	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">	
+	<link rel="stylesheet" type="text/css" href="assets/vendor/animate.min.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 <body>
@@ -36,7 +40,7 @@
 	</div>
 </div>
 <div class="mask"></div>
-<div class="bg-svg" style="display: none">
+<div class="bg-svg">
 	<header>
 		<nav class="navbar navbar-expand-lg navbar-light bg-transparent">
 			<a class="logo text-white font-weight-bold" href="#">KUNTAL</a>
@@ -55,7 +59,7 @@
 			  			<i class="fa fa-times" aria-hidden="true"></i>
 			  		</button>
 			  	</div>
-			    <ul class="navbar-nav  justify-content-end">
+			    <ul class="navbar-nav justify-content-end">
 			      <li class="nav-item active animate__animated animate__zoomInDown animate__delay-05s">
 			        <a class="nav-link" href="#home">Home
 			          <span class="sr-only">(current)</span>
@@ -122,10 +126,10 @@
 							<a href="https://www.linkedin.com/in/kuntal811/" class="">
 								<i class="fa fa-linkedin animate__animated animate__jackInTheBox animate__delay-3s animate__slow" aria-hidden="true"></i>
 							</a>
-							<a href="" class="">
+							<a href="https://wa.me/+918116763585?text=hello Kuntal" class="">
 								<i class="fa fa-whatsapp animate__animated animate__jackInTheBox  animate__delay-3s animate__slow" aria-hidden="true"></i>
 							</a>
-							<a href=""><i class="fa fa-phone animate__animated animate__jackInTheBox animate__delay-3s animate__slow" aria-hidden="true"></i>
+							<a href="Tel:918116763585"><i class="fa fa-phone animate__animated animate__jackInTheBox animate__delay-3s animate__slow" aria-hidden="true"></i>
 							</a>
 						</div>
 					</div>
@@ -133,7 +137,7 @@
 			</div>
 			<div class="row justify-content-center">
 				<div class="col-md-8 profile-photo-1" >
-					<img data-aos="zoom-in-right" data-aos-delay="800" class="mx-auto animate__animated animate__jackInTheBox animate__delay-4s animate__slow" src="assets/image/self/KUNTAL.jpg"/>
+					<img data-aos="zoom-in-right" class="mx-auto animate__animated animate__jackInTheBox animate__delay-4s animate__slow" src="assets/image/self/KUNTAL.jpg" alt="Kuntal's photo"/>
 				</div>
 			</div>
 		</div>
@@ -151,7 +155,7 @@
 		<div class="row profile-container">
 			<div class="col-md-6 d-flex">
 				<div data-aos="zoom-in-right" data-aos-duration="1000" class="profile-image-container position-relative mx-auto align-self-center">
-					<img src="assets/image/kuntal_sarkar.png"/>
+					<img src="assets/image/kuntal_sarkar.png" alt="Kuntal's photo"/>
 				</div>
 			</div>
 			<div class="col-md-6 d-flex align-self-center mt-sm-4">
@@ -194,7 +198,7 @@
 							</ul>
 					</div>
 					<div class="profile-btn p-4">
-						<button class="btn btn-custom">Download</button>
+						<a href="https://internshala.com/student/resume_download/9E742610-E74C-0AC6-28BA-7B9031EDC4A0/12573047" class="btn btn-custom">Download Resume</a>
 					</div>
 				</div>
 			</div>
@@ -242,7 +246,7 @@
 					<div class="card-header">
 						<div class="project-icon text-center p-3">
 								<span class="project-icon-wrapper m-4 br-50">
-									<img src="assets/image/project/icon/ticket_booking.jpg"class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow">
+									<img src="assets/image/project/icon/ticket_booking.jpg"class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow" alt="">
 								</span>
 						</div>
 						<h3 class="card-title text-center">Ticket Booking</h3>
@@ -260,7 +264,7 @@
 					<div class="card-header">
 						<div class="project-icon text-center p-3">
 								<span class="project-icon-wrapper p-4 br-50">
-									<img src="assets/image/project/icon/sobarbazar_malda.png"class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow">
+									<img src="assets/image/project/icon/sobarbazar_malda.png"class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow" alt="">
 								</span>
 						</div>
 						<h3 class="card-title text-center">SobarBazar Malda</h3>
@@ -278,7 +282,7 @@
 					<div class="card-header">
 						<div class="project-icon text-center p-3">
 								<span class="project-icon-wrapper m-4 br-50">
-									<img src="assets/image/project/icon/automatic_attendance.png" class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow">
+									<img src="assets/image/project/icon/automatic_attendance.png" class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow" alt="">
 								</span>
 						</div>
 						<h3 class="card-title text-center">Automatic Attendance</h3>
@@ -300,7 +304,7 @@
 					<div class="card-header">
 						<div class="project-icon text-center p-3">
 								<span class="project-icon-wrapper m-4 br-50">
-									<img src="assets/image/project/icon/ticket_booking.jpg"class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow">
+									<img src="assets/image/project/icon/ticket_booking.jpg"class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow" alt="">
 								</span>
 						</div>
 						<h3 class="card-title text-center">EasyCompress</h3>
@@ -320,7 +324,7 @@
 					<div class="card-header">
 						<div class="project-icon text-center p-3">
 								<span class="project-icon-wrapper p-4 br-50">
-									<img src="assets/image/project/icon/sobarbazar_malda.png"class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow">
+									<img src="assets/image/project/icon/sobarbazar_malda.png"class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow" alt="">
 								</span>
 						</div>
 						<h3 class="card-title text-center">SobarBazar Malda</h3>
@@ -338,7 +342,7 @@
 					<div class="card-header">
 						<div class="project-icon text-center p-3">
 								<span class="project-icon-wrapper m-4 br-50">
-									<img src="assets/image/project/icon/automatic_attendance.png" class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow">
+									<img src="assets/image/project/icon/automatic_attendance.png" class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow" alt="">
 								</span>
 						</div>
 						<h3 class="card-title text-center">Automatic Attendance</h3>
@@ -424,7 +428,7 @@
 		</div>
 		<div class="row mt-5">
 			<div class="col-md-4 award-img-container" data-aos="zoom-in-left" data-aos-duration="2000">
-				<img class="award-img m-sm-2" src="assets/image/award/SHINER_AWARD.jpg" width="100%">
+				<img class="award-img m-sm-2" src="assets/image/award/SHINER_AWARD.jpg" width="100%" alt="SHINER award photo">
 			</div>
 		</div>
 
@@ -441,7 +445,7 @@
 		</div>
 		<div class="row ml-md-5 mr-md-5 align-items-center mt-5">
 			<div class="col-md-6" data-aos="zoom-in-right" data-aos-duration="2000">
-				<img class ="d-block mx-auto contact-image" src="assets/image/contact.svg">
+				<img class ="d-block mx-auto contact-image" src="assets/image/contact.svg" alt="contact photo">
 			</div>
 			<div class="col-md-6">
 				<div class="contact-form">
@@ -456,7 +460,7 @@
 							<input type="text" name="subject" id ="subject" class="form-control" placeholder="Enter Subject">
 						</div>
 						<div class="form-group" data-aos="fade-left" data-aos-duration="2000">
-							<textarea name="message" class="form-control" id="message" placeholder="Enter Your Message"></textarea>
+							<textarea name="message" class="form-control" id="message" placeholder="Enter Your Message *" required></textarea>
 						</div>
 						<div class="form-group text-center" data-aos="fade-left" data-aos-duration="2000">
 							<input type="submit" id="send-msg" class="btn btn-custom" value ="Send">
@@ -475,15 +479,15 @@
 
 	<!-- hitwebcounter Code START -->
 	<a href="https://www.hitwebcounter.com" target="_blank">
-	<img class="d-block mx-auto" src="https://hitwebcounter.com/counter/counter.php?page=7768043&style=0025&nbdigits=5&type=page&initCount=200" title="Free Counter" Alt="web counter"   border="0" /></a>                
+	<img class="d-block mx-auto" src="https://hitwebcounter.com/counter/counter.php?page=7768043&style=0025&nbdigits=5&type=page&initCount=200" title="Free Counter" Alt="Visitor Counter"   border="0" /></a>                
 
 
 </footer>
-<script type="text/javascript" src="https://kit.fontawesome.com/e97332543f.js"></script>
-<script src="assets/vendor/tsparticles.min.js"></script>
-<script src="assets/vendor/typed.js@2.0.11.js"></script>
 <script src="assets/js/jquery-3.5.1.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://kit.fontawesome.com/e97332543f.js"></script>
+<script src="assets/vendor/typed.js@2.0.11.js"></script>
+<script src="assets/vendor/tsparticles.min.js"></script>
 <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script src="assets/js/main.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

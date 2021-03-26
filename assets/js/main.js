@@ -1,4 +1,4 @@
-  $(window).on('load',function(){
+  $(document).ready(function(){
     $('.pre-loader').css("display", "none");
   	$('.bg-svg').css("display", "block");
   });

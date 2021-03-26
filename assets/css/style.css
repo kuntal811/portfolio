@@ -25,37 +25,7 @@ overflow-x:hidden;
   width: 300px;
   perspective: 3000px;
 }
-/*
-#container h1{
-  position: relative;
-  text-align: center;
-  top: 100%;
-  font-family: cursive;
-  font-style: italic;
-  font-size: 60px;
-  background: linear-gradient(to right,#1345e6 0%,#ed239f 51%,#1345e6 100%) !important
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: animate2 2s infinite;
-}
-@keyframes animate2{
-  0%{
-    background: linear-gradient(120deg, #fee140 10%, #14c8cc 66.666%,#6b7bfd 6 0%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  
-  50%{background: linear-gradient(120deg, #fee140 30%, #14c8cc 66.666%,#6b7bfd 33.333%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  
-  100%{background: linear-gradient(120deg, #fee140 10%, #14c8cc 50%,#6b7bfd 33.333%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-}
-*/
+
 @keyframes animate{
   0%{top: 0%;transform: translate(-50%,-50%) rotateX(60deg) rotatez(0deg);}
   50%{top:90%;transform:translate(-50%,-50%) rotateX(60deg) rotatez(250deg);}
@@ -135,7 +105,9 @@ overflow-x:hidden;
 h1,h2,h3,h4,h5,h6{font-family: courgette;font-weight: bold}
 p{font-family:Roboto !important;font-style: italic !important;}
 .br-50{border-radius:50%;}
-
+.bg-svg{
+	display: none;
+}
 #home{
 	background: url('../image/banner-bg.svg') no-repeat;
 	background-size: cover;
@@ -199,7 +171,7 @@ header{
 	box-shadow: 0 0 10px 0 #000;
 }
 #navbar-container{
-	justify-content: center;
+	justify-content: flex-end;
 }
 .navbar-nav li:hover{
 	color: white !important;
@@ -334,7 +306,6 @@ header{
 }
 
 #profile{
-	//padding-top: 50px;
 	overflow-x: hidden;
 }
 .profile-heading{
@@ -395,7 +366,7 @@ header{
 @media (max-width:992px){
 #profile{
 	height: auto;
-	padding-top: 50px;
+	//padding-top: 50px;
 }
 
 #skill{
