@@ -21,8 +21,8 @@
 	<meta name="keywords" content="Kuntal Sarkar Portfolio,Kuntal's portfolio">
 
 	<!-- style sheets  -->
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">	
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.min.css">	
 	<link rel="stylesheet" type="text/css" href="assets/vendor/animate.min.css">
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
@@ -249,7 +249,9 @@
 					<div class="card-body">
 						<p class="text-white text-justify">This is a Drama organization's website with online ticket booking facility made on PHP framwork CodeIgniter and HTML, CSS, JavaScript and Bootstrap.</p>
 						<div class="project-link text-right">
-							<i class="fa fa-arrow-right bg-white p-3 br-50" aria-hidden="true"></i>
+							<a href="https://maldanattyasena.xyz" target="_blank">
+								<i class="fa fa-arrow-right bg-white p-3 br-50" aria-hidden="true"></i>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -267,7 +269,9 @@
 					<div class="card-body">
 						<p class="text-white text-justify">SobarBazar Malda is a online grocery supermarket website made on Wordpress CMS and it has a android application also. This website has all the features a ecommerce website needs.</p>
 						<div class="project-link text-right">
-							<i class="fa fa-arrow-right bg-white p-3 br-50" aria-hidden="true"></i>
+							<a href="https://sobarbazarmalda.com" target="_blank">
+								<i class="fa fa-arrow-right bg-white p-3 br-50" aria-hidden="true"></i>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -448,6 +452,6 @@
 <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-<script src="assets/js/main.js"></script>
+<script src="assets/js/main.min.js"></script>
 </body>
 </html>
