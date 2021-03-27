@@ -6,11 +6,10 @@
 	<meta name="theme-color" content="#351CC1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Open Graph tag -->
-	<meta name="og:url" content="http://kuntalsarkar.live/">
+	<meta name="og:title" content="Kuntal Sarkar | Portfolio">
 	<meta name="og:image" content="https://kuntalsarkar.herokuapp.com/assets/image/self/KUNTAL.jpg">
 	<meta name="og:description"	content="I am a full stack web developer with experience building websites and web applications. I specialize in PHP and also in the CodeIgniter framework and have experience working with Python.">
-	<meta name="og:updated_time" content ="1616788179">
-	<meta name="og:title" content="Kuntal Sarkar | Portfolio">
+	<meta name="og:url" content="http://kuntalsarkar.live/">
 	<!-- favicon -->
 	<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
