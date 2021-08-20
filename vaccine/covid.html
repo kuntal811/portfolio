@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaccine Alert - Kuntal Sarkar</title>
+</head>
+<body>
+    <pre id="demo"></pre>
+    <button id='start'>Start</button>
+<script>
+  var isVaccineFound = false;
+  var time;
+function loadCenter() {
+  //console.log('hello');
+  if(isVaccineFound){
+    clearInterval(time);
+    return;
+  }
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        let response = JSON.parse(this.response);
+        response = response.sessions;
+        response.map((center) => {
+            //console.log(center);
+            if(center.center_id === 587188 && center.available_capacity_dose2 > 0){
+              //console.log("available");
+              var audio = new Audio('alert.mp3');
+              audio.play();
+              isVaccineFound = true;
+            }
+        });
+    }
+  };
+  xhttp.open("GET", "https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByPin?pincode=732101&date=20-08-2021", true);
+  xhttp.send();
+}
+
+document.getElementById('start').addEventListener('click',function(){
+  time = setInterval(function(){loadCenter();},1000);
+});
+</script>    
+</body>
+</html>
