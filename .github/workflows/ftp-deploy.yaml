@@ -1,0 +1,19 @@
+name: 🚀 Deploy website on push
+on:
+  push:
+    branches: [ main ]
+jobs:
+  FTP-Deploy-Action:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v2
+    
+    - name: 📂 Sync files
+      uses: kuntal811/portfolio@main
+      with:
+        server: ${{secrets.ftp_host}}
+        username: ${{secrets.ftp_username}}
+        password: ${{ secrets.ftp_password }}
+        port: ${{secrets.ftp_port}}
