@@ -97,6 +97,7 @@
 								<div class="typing-content">
 									<strong>Web Developer </strong>
   									<strong>Full Stack Developer </strong>
+									<strong>App Developer</strong>
   									<strong>Wordpress Developer </strong>
 								</div>
 								<span class="typing animate__animated animate__bounceIn animate__delay-1s"></span>
@@ -211,16 +212,21 @@
 		</div>
 		<div class="row">
 			<div class="col-md-6 animate__animated animate__bounce">
-				<div class="skill-wrapper" skill-name="HTML" skill-percent="75" data-aos="fade-right" data-aos-duration="2000" ></div>
-				<div class="skill-wrapper" skill-name="CSS" skill-percent="80"data-aos="fade-right" data-aos-duration="2000" ></div>
-				<div class="skill-wrapper" skill-name="Bootstrap" skill-percent="60"data-aos="fade-right" data-aos-duration="2000" ></div>
+				<div class="skill-wrapper" skill-name="HTML5" skill-percent="90" data-aos="fade-right" data-aos-duration="2000" ></div>
+				<div class="skill-wrapper" skill-name="CSS3" skill-percent="85"data-aos="fade-right" data-aos-duration="2000" ></div>
+				<div class="skill-wrapper" skill-name="Bootstrap" skill-percent="85"data-aos="fade-right" data-aos-duration="2000" ></div>
 				<div class="skill-wrapper" skill-name="JavaScript" skill-percent="65"data-aos="fade-right" data-aos-duration="2000" ></div>
 				<div class="skill-wrapper" skill-name="JQuery" skill-percent="60"data-aos="fade-right" data-aos-duration="2000" ></div>
+				<div class="skill-wrapper" skill-name="React" skill-percent="60"data-aos="fade-right" data-aos-duration="2000" ></div>
 			</div>
 			<div class="col-md-6">
+				<div class="skill-wrapper" skill-name="Python" skill-percent="65"data-aos="fade-right" data-aos-duration="2000" ></div>
 				<div class="skill-wrapper" skill-name="PHP" skill-percent="70"data-aos="fade-right" data-aos-duration="2000" ></div>
 				<div class="skill-wrapper" skill-name="Codeigniter" skill-percent="60"data-aos="fade-right" data-aos-duration="2000" ></div>
-				<div class="skill-wrapper" skill-name="Python" skill-percent="65"data-aos="fade-right" data-aos-duration="2000" ></div>
+				<div class="skill-wrapper" skill-name="React Native" skill-percent="70"data-aos="fade-right" data-aos-duration="2000" ></div>
+				<div class="skill-wrapper" skill-name="Flutter" skill-percent="60"data-aos="fade-right" data-aos-duration="2000" ></div>
+				<div class="skill-wrapper" skill-name="Figma" skill-percent="60"data-aos="fade-right" data-aos-duration="2000" ></div>
+				
 			</div>
 		</div>
 	</section>
@@ -235,6 +241,66 @@
 			</div>
 		</div>
 		<div class="row mt-5">
+			<div class="col-md-4 pb-3">
+					<div class="card" data-aos="zoom-in-left" data-aos-duration="2000">
+						<div class="card-header">
+							<div class="project-icon text-center p-3">
+									<span class="project-icon-wrapper m-4 br-50">
+										<img src="assets/image/project/icon/downtimealert.png" class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow" alt="">
+									</span>
+							</div>
+							<h3 class="card-title text-center">Downtime Alert</h3>
+						</div>
+						<div class="card-body">
+							<p class="text-white text-justify">Automatic Attendance using Face Recognition is a application made using Python, EEL JS, HTML and CSS. I built this project in final year of my graduation.</p>
+							<div class="project-link text-right">
+								<a href="https://github.com/kuntal811/downtimeAlert"  target="_blank">
+									<i class="fa fa-arrow-right bg-white p-3 br-50" aria-hidden="true"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 pb-3">
+					<div class="card" data-aos="zoom-in-left" data-aos-duration="2000">
+						<div class="card-header">
+							<div class="project-icon text-center p-3">
+									<span class="project-icon-wrapper m-4 br-50">
+										<img src="assets/image/project/icon/easyresume.png" class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow" alt="">
+									</span>
+							</div>
+							<h3 class="card-title text-center">Easy Resume</h3>
+						</div>
+						<div class="card-body">
+							<p class="text-white text-justify">Automatic Attendance using Face Recognition is a application made using Python, EEL JS, HTML and CSS. I built this project in final year of my graduation.</p>
+							<div class="project-link text-right">
+								<a href="https://github.com/kuntal811/downtimeAlert"  target="_blank">
+									<i class="fa fa-arrow-right bg-white p-3 br-50" aria-hidden="true"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			<div class="col-md-4 pb-3">
+				<div class="card" data-aos="zoom-in-left" data-aos-duration="2000">
+					<div class="card-header">
+						<div class="project-icon text-center p-3">
+								<span class="project-icon-wrapper m-4 br-50">
+									<img src="assets/image/project/icon/automatic_attendance.png" class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow" alt="">
+								</span>
+						</div>
+						<h3 class="card-title text-center">Automatic Attendance</h3>
+					</div>
+					<div class="card-body">
+						<p class="text-white text-justify">Automatic Attendance using Face Recognition is a application made using Python, EEL JS, HTML and CSS. I built this project in final year of my graduation.</p>
+						<div class="project-link text-right">
+							<a href="https://github.com/kuntal811/"  target="_blank">
+								<i class="fa fa-arrow-right bg-white p-3 br-50" aria-hidden="true"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
 			<div class="col-md-4 pb-3 align-items-stretch">
 				<div class="card" data-aos="zoom-in-left" data-aos-duration="2000">
 					<div class="card-header">
@@ -260,43 +326,21 @@
 					<div class="card-header">
 						<div class="project-icon text-center p-3">
 								<span class="project-icon-wrapper m-4 br-50">
-									<img src="assets/image/project/icon/ticket_booking.jpg"class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow" alt="">
+									<img src="assets/image/project/icon/ks_meet.png"class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow" alt="">
 								</span>
 						</div>
-						<h3 class="card-title text-center">Ticket Booking</h3>
+						<h3 class="card-title text-center">PHP - MVC</h3>
 					</div>
 					<div class="card-body">
-						<p class="text-white text-justify">This is a Drama organization's website with online ticket booking facility made on PHP framwork CodeIgniter and HTML, CSS, JavaScript and Bootstrap.</p>
+						<p class="text-white text-justify">KS Meet is a video chating website with screen share functionality. It is made of HTML, CSS, JavasCript and peer JS library</p>
 						<div class="project-link text-right">
-							<a href="https://maldanattyasena.xyz" target="_blank">
+							<a href="https://ksmeet.herokuapp.com" target="_blank">
 								<i class="fa fa-arrow-right bg-white p-3 br-50" aria-hidden="true"></i>
 							</a>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 pb-3">
-				<div class="card" data-aos="zoom-in-left" data-aos-duration="2000">
-					<div class="card-header">
-						<div class="project-icon text-center p-3">
-								<span class="project-icon-wrapper m-4 br-50">
-									<img src="assets/image/project/icon/automatic_attendance.png" class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow" alt="">
-								</span>
-						</div>
-						<h3 class="card-title text-center">Automatic Attendance</h3>
-					</div>
-					<div class="card-body">
-						<p class="text-white text-justify">Automatic Attendance using Face Recognition is a application made using Python, EEL JS, HTML and CSS. I built this project in final year of my graduation.</p>
-						<div class="project-link text-right">
-							<a href="https://github.com/kuntal811/"  target="_blank">
-								<i class="fa fa-arrow-right bg-white p-3 br-50" aria-hidden="true"></i>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row mt-5">
 			<div class="col-md-4 pb-3 align-items-stretch">
 				<div class="card" data-aos="zoom-in-left" data-aos-duration="2000">
 					<div class="card-header">
@@ -311,26 +355,6 @@
 						<p class="text-white text-justify">EasyCompress is the easiest photo compressor website. Just upload and compress the photo as your need by using a single slider.</p>
 						<div class="project-link text-right">
 							<a href="https://easycompress.herokuapp.com/" target="_blank">
-								<i class="fa fa-arrow-right bg-white p-3 br-50" aria-hidden="true"></i>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 pb-3">
-				<div class="card" data-aos="zoom-in-left" data-aos-duration="2000">
-					<div class="card-header">
-						<div class="project-icon text-center p-3">
-								<span class="project-icon-wrapper p-4 br-50">
-									<img src="assets/image/project/icon/sobarbazar_malda.png"class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow" alt="">
-								</span>
-						</div>
-						<h3 class="card-title text-center">SobarBazar Malda</h3>
-					</div>
-					<div class="card-body">
-						<p class="text-white text-justify">SobarBazar Malda is a online grocery supermarket website made on Wordpress CMS and it has a android application also. This website has all the features a ecommerce website needs.</p>
-						<div class="project-link text-right">
-							<a href="https://sobarbazarmalda.com" target="_blank">
 								<i class="fa fa-arrow-right bg-white p-3 br-50" aria-hidden="true"></i>
 							</a>
 						</div>
@@ -379,19 +403,14 @@
 					<div class="timeline-content-container experience">
 						<h3>Experience</h3>
 						<div class="timeline-content" data-aos="fade-up" data-aos-duration="3000">
+							<h5>Code Uplers</h5>
+							<h6>Aug 2021 - Present</h6>
+							<p>Full Stack Developer</p>
+						</div>
+						<div class="timeline-content" data-aos="fade-up" data-aos-duration="3000">
 							<h5>Shining Tomorrow Foundation</h5>
 							<h6>Jan 2021 - Mar 2021 </h6>
 							<p>Joined as a Web Developer intern and make a multi-type quiz portal and got a SHINER award.</p>
-						</div>
-						<div class="timeline-content" data-aos="fade-up" data-aos-duration="3000">
-							<h5>SobarBazar Malda</h5>
-							<h6>Sept 2020 - Nov 2020</h6>
-							<p>Built a E-commerce website in WordPress CMS and maintained it.</p>
-						</div>
-						<div class="timeline-content" data-aos="fade-up" data-aos-duration="3000">
-							<h5>Malda Nattyasena</h5>
-							<h6>2019-Present</h6>
-							<p>Built a ticket booking website for Malda Nattyasena and I'm maintaining it now.</p>
 						</div>
 					</div>
 				</div>
