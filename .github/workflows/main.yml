@@ -35,7 +35,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
       - name: Sync files
-        uses: kuntal811/portfolio@main
+        uses: kuntal811/portfolio@latest
         with:
           server: ${{secrets.ftp_host}}
           username: ${{secrets.ftp_username}}
