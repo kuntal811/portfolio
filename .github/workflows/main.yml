@@ -8,7 +8,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: 🚚 Get latest code
-      uses: actions/checkout@v2
+    - uses: actions/checkout@v2
+      with:
+        repository: 'portfolio'
+        ref: 'main'
     
     - name: 📂 Sync files
       uses: /home/runner/work/_action/kuntal811/portfolio@main
