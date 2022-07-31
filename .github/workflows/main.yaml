@@ -13,6 +13,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
-        ftp-server: ${{secrets.ftp_host}}
+        ftp-server: 'sftp://kuntalsarkar.in:12389/public_html/'
         ftp-username: ${{secrets.ftp_username}}
         ftp-password: ${{ secrets.ftp_password }}
+        git-ftp-args: --insecure
