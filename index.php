@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Open Graph tag -->
 	<meta name="og:title" content="Kuntal Sarkar | Portfolio">
-	<meta name="og:image" content="https://cdn.jsdelivr.net/gh/kuntal811/portfolio/assets/image/self/KUNTAL.webp">
+	<meta name="og:image" content="https://cdn.jsdelivr.net/gh/kuntal811/portfolio/assets/image/self/KUNTAL.jpg">
 	<meta name="og:description"	content="I am a full stack web developer with experience building websites and web applications. I specialize in PHP and also in the CodeIgniter framework and have experience working with Python.">
 	<meta name="og:url" content="https://kuntalsarkar.in/">
 	<!-- favicon -->
@@ -132,7 +132,7 @@
 			</div>
 			<div class="row justify-content-center">
 				<div class="col-md-8 profile-photo-1" >
-					<img data-aos="zoom-in-right" class="mx-auto animate__animated animate__jackInTheBox animate__delay-4s animate__slow" src="https://cdn.jsdelivr.net/gh/kuntal811/portfolio/assets/image/self/KUNTAL.webp" alt="Kuntal's photo"/>
+					<img data-aos="zoom-in-right" class="mx-auto animate__animated animate__jackInTheBox animate__delay-4s animate__slow" src="https://cdn.jsdelivr.net/gh/kuntal811/portfolio/assets/image/self/KUNTAL.jpg" alt="Kuntal's photo"/>
 				</div>
 			</div>
 		</div>
@@ -246,7 +246,7 @@
 						<div class="card-header">
 							<div class="project-icon text-center p-3">
 									<span class="project-icon-wrapper m-4 br-50">
-										<img src="https://cdn.jsdelivr.net/gh/kuntal811/portfolio/assets/image/project/icon/downtimealert.webp" class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow" alt="">
+										<img src="https://cdn.jsdelivr.net/gh/kuntal811/portfolio/assets/image/project/icon/downtimealert.png" class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow" alt="">
 									</span>
 							</div>
 							<h3 class="card-title text-center">Downtime Alert</h3>
@@ -266,7 +266,7 @@
 						<div class="card-header">
 							<div class="project-icon text-center p-3">
 									<span class="project-icon-wrapper m-4 br-50">
-										<img src="https://cdn.jsdelivr.net/gh/kuntal811/portfolio/assets/image/project/icon/easyresume.webp" class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow" alt="">
+										<img src="https://cdn.jsdelivr.net/gh/kuntal811/portfolio/assets/image/project/icon/easyresume.png" class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow" alt="">
 									</span>
 							</div>
 							<h3 class="card-title text-center">Easy Resume</h3>
@@ -286,7 +286,7 @@
 					<div class="card-header">
 						<div class="project-icon text-center p-3">
 								<span class="project-icon-wrapper m-4 br-50">
-									<img src="https://cdn.jsdelivr.net/gh/kuntal811/portfolio/assets/image/project/icon/automatic_attendance.webp" class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow" alt="">
+									<img src="https://cdn.jsdelivr.net/gh/kuntal811/portfolio/assets/image/project/icon/automatic_attendance.png" class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow" alt="">
 								</span>
 						</div>
 						<h3 class="card-title text-center">Automatic Attendance</h3>
@@ -346,7 +346,7 @@
 					<div class="card-header">
 						<div class="project-icon text-center p-3">
 								<span class="project-icon-wrapper m-4 br-50">
-									<img src="https://cdn.jsdelivr.net/gh/kuntal811/portfolio/assets/image/project/icon/easycompress.webp"class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow" alt="">
+									<img src="https://cdn.jsdelivr.net/gh/kuntal811/portfolio/assets/image/project/icon/easycompress.png"class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow" alt="">
 								</span>
 						</div>
 						<h3 class="card-title text-center">EasyCompress</h3>
@@ -427,7 +427,7 @@
 		</div>
 		<div class="row mt-5">
 			<div class="col-md-4 award-img-container" data-aos="zoom-in-left" data-aos-duration="2000">
-				<img class="award-img m-sm-2" src="https://cdn.jsdelivr.net/gh/kuntal811/portfolio/assets/image/award/SHINER_AWARD.webp" width="100%" alt="SHINER award photo">
+				<img class="award-img m-sm-2" src="https://cdn.jsdelivr.net/gh/kuntal811/portfolio/assets/image/award/SHINER_AWARD.jpg" width="100%" alt="SHINER award photo">
 			</div>
 		</div>
 
