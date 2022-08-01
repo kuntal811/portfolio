@@ -7,22 +7,22 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Open Graph tag -->
 	<meta name="og:title" content="Kuntal Sarkar | Portfolio">
-	<meta name="og:image" content="https://kuntalsarkar.herokuapp.com/assets/image/self/KUNTAL.jpg">
+	<meta name="og:image" content="https://cdn.jsdelivr.net/gh/kuntal811/portfolio/assets/image/self/KUNTAL.webp">
 	<meta name="og:description"	content="I am a full stack web developer with experience building websites and web applications. I specialize in PHP and also in the CodeIgniter framework and have experience working with Python.">
-	<meta name="og:url" content="http://kuntalsarkar.live/">
+	<meta name="og:url" content="https://kuntalsarkar.in/">
 	<!-- favicon -->
-	<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-	<link rel="manifest" href="assets/favicon//site.webmanifest">
+	<link rel="apple-touch-icon" sizes="180x180" href="https://cdn.jsdelivr.net/gh/kuntal811/portfolio/assets/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://cdn.jsdelivr.net/gh/kuntal811/portfolio/assets/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://cdn.jsdelivr.net/gh/kuntal811/portfolio/assets/favicon/favicon-16x16.png">
+	<link rel="manifest" href="https://cdn.jsdelivr.net/gh/kuntal811/portfolio/assets/favicon//site.webmanifest">
 	<title>Portfolio | Kuntal Sarkar</title>
 	<meta name="description" content="Hey,I'm Kuntal Sarkar.I am a full stack web developer with experience building websites and web applications. I specialize in PHP and also in the CodeIgniter framework and have experience working with Python.">
 	<meta name="keywords" content="Kuntal Sarkar Portfolio,Kuntal's portfolio">
 
 	<!-- style sheets  -->
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.min.css">	
-	<link rel="stylesheet" type="text/css" href="assets/vendor/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kuntal811/portfolio/assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kuntal811/portfolio/assets/css/style.min.css">	
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kuntal811/portfolio/assets/vendor/animate.min.css">
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
@@ -107,7 +107,7 @@
 							I am a full stack web developer with experience building websites and web applications. I specialize in PHP and also in the CodeIgniter framework and have experience working with Python.
 						</p>
 						<div class="social-link">
-							<a href="http://www.facebook.com/kuntalsarkar0000" class="">
+							<a href="http://www.facebook.com/kuntal811" class="">
 								<i class="fa fa-facebook animate__animated animate__jackInTheBox animate__delay-3s animate__slow" aria-hidden="true" ></i>
 							</a>
 							<a href="https://www.instagram.com/kuntal_adi/" class="">
@@ -132,7 +132,7 @@
 			</div>
 			<div class="row justify-content-center">
 				<div class="col-md-8 profile-photo-1" >
-					<img data-aos="zoom-in-right" class="mx-auto animate__animated animate__jackInTheBox animate__delay-4s animate__slow" src="assets/image/self/KUNTAL.jpg" alt="Kuntal's photo"/>
+					<img data-aos="zoom-in-right" class="mx-auto animate__animated animate__jackInTheBox animate__delay-4s animate__slow" src="https://cdn.jsdelivr.net/gh/kuntal811/portfolio/assets/image/self/KUNTAL.webp" alt="Kuntal's photo"/>
 				</div>
 			</div>
 		</div>
@@ -150,7 +150,7 @@
 		<div class="row profile-container">
 			<div class="col-md-6 d-flex">
 				<div data-aos="zoom-in-right" data-aos-duration="1000" class="profile-image-container position-relative mx-auto align-self-center">
-					<img src="assets/image/kuntal_sarkar.png" alt="Kuntal's photo"/>
+					<img src="https://cdn.jsdelivr.net/gh/kuntal811/portfolio/assets/image/kuntal_sarkar.png" alt="Kuntal's photo"/>
 				</div>
 			</div>
 			<div class="col-md-6 d-flex align-self-center mt-sm-4">
@@ -246,7 +246,7 @@
 						<div class="card-header">
 							<div class="project-icon text-center p-3">
 									<span class="project-icon-wrapper m-4 br-50">
-										<img src="assets/image/project/icon/downtimealert.png" class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow" alt="">
+										<img src="https://cdn.jsdelivr.net/gh/kuntal811/portfolio/assets/image/project/icon/downtimealert.webp" class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow" alt="">
 									</span>
 							</div>
 							<h3 class="card-title text-center">Downtime Alert</h3>
@@ -266,7 +266,7 @@
 						<div class="card-header">
 							<div class="project-icon text-center p-3">
 									<span class="project-icon-wrapper m-4 br-50">
-										<img src="assets/image/project/icon/easyresume.png" class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow" alt="">
+										<img src="https://cdn.jsdelivr.net/gh/kuntal811/portfolio/assets/image/project/icon/easyresume.webp" class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow" alt="">
 									</span>
 							</div>
 							<h3 class="card-title text-center">Easy Resume</h3>
@@ -286,7 +286,7 @@
 					<div class="card-header">
 						<div class="project-icon text-center p-3">
 								<span class="project-icon-wrapper m-4 br-50">
-									<img src="assets/image/project/icon/automatic_attendance.png" class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow" alt="">
+									<img src="https://cdn.jsdelivr.net/gh/kuntal811/portfolio/assets/image/project/icon/automatic_attendance.webp" class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow" alt="">
 								</span>
 						</div>
 						<h3 class="card-title text-center">Automatic Attendance</h3>
@@ -306,7 +306,7 @@
 					<div class="card-header">
 						<div class="project-icon text-center p-3">
 								<span class="project-icon-wrapper m-4 br-50">
-									<img src="assets/image/project/icon/ks_meet.png"class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow" alt="">
+									<img src="https://cdn.jsdelivr.net/gh/kuntal811/portfolio/assets/image/project/icon/ks_meet.png"class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow" alt="">
 								</span>
 						</div>
 						<h3 class="card-title text-center">KS Meet</h3>
@@ -326,7 +326,7 @@
 					<div class="card-header">
 						<div class="project-icon text-center p-3">
 								<span class="project-icon-wrapper m-4 br-50">
-									<img src="assets/image/project/icon/ks_meet.png"class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow" alt="">
+									<img src="https://cdn.jsdelivr.net/gh/kuntal811/portfolio/assets/image/project/icon/ks_meet.png"class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow" alt="">
 								</span>
 						</div>
 						<h3 class="card-title text-center">PHP - MVC</h3>
@@ -346,7 +346,7 @@
 					<div class="card-header">
 						<div class="project-icon text-center p-3">
 								<span class="project-icon-wrapper m-4 br-50">
-									<img src="assets/image/project/icon/easycompress.png"class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow" alt="">
+									<img src="https://cdn.jsdelivr.net/gh/kuntal811/portfolio/assets/image/project/icon/easycompress.webp"class="animate__animated animate__jackInTheBox animate__delay-1s animate__slow" alt="">
 								</span>
 						</div>
 						<h3 class="card-title text-center">EasyCompress</h3>
@@ -427,7 +427,7 @@
 		</div>
 		<div class="row mt-5">
 			<div class="col-md-4 award-img-container" data-aos="zoom-in-left" data-aos-duration="2000">
-				<img class="award-img m-sm-2" src="assets/image/award/SHINER_AWARD.jpg" width="100%" alt="SHINER award photo">
+				<img class="award-img m-sm-2" src="https://cdn.jsdelivr.net/gh/kuntal811/portfolio/assets/image/award/SHINER_AWARD.webp" width="100%" alt="SHINER award photo">
 			</div>
 		</div>
 
@@ -444,7 +444,7 @@
 		</div>
 		<div class="row ml-md-5 mr-md-5 align-items-center mt-5">
 			<div class="col-md-6" data-aos="zoom-in-right" data-aos-duration="2000">
-				<img class ="d-block mx-auto contact-image" src="assets/image/contact.svg" alt="contact photo">
+				<img class ="d-block mx-auto contact-image" src="https://cdn.jsdelivr.net/gh/kuntal811/portfolio/assets/image/contact.svg" alt="contact photo">
 			</div>
 			<div class="col-md-6">
 				<div class="contact-form">
@@ -482,14 +482,14 @@
 
 
 </footer>
-<script src="assets/js/jquery-3.5.1.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/kuntal811/portfolio/assets/js/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/kuntal811/portfolio/assets/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://kit.fontawesome.com/e97332543f.js"></script>
-<script src="assets/vendor/typed.js@2.0.11.js"></script>
-<script src="assets/vendor/tsparticles.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/kuntal811/portfolio/assets/vendor/typed.js@2.0.11.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/kuntal811/portfolio/assets/vendor/tsparticles.min.js"></script>
 <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-<script src="assets/js/main.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/kuntal811/portfolio/assets/js/main.min.js"></script>
 </body>
 </html>
