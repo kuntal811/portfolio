@@ -16,5 +16,5 @@ jobs:
         server: ftp.kuntalsarkar.in
         username: ${{secrets.ftp_username}}
         password: ${{secrets.ftp_password}}
-        protocol: ftp
+        protocol: sftp
         port: 21
