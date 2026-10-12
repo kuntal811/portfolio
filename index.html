@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kuntal Sarkar — Software Engineer, AI Systems</title>
+  <meta name="description" content="Kuntal Sarkar is a software engineer building production AI agents, computer-vision check-in and large-scale event platforms with Laravel, React and the Claude API." />
+  <link rel="canonical" href="https://kuntalsarkar.in/" />
+  <meta property="og:title" content="Kuntal Sarkar — Software Engineer, AI Systems" />
+  <meta property="og:description" content="Production AI agents and event technology used by teams at Amazon, Microsoft and IBM." />
+  <meta property="og:image" content="assets/images/profile-photo.jpeg" />
+  <meta name="theme-color" content="#0E1430" />
+  <link rel="icon" href="favicon.ico" sizes="any" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="mark" href="#top" aria-label="Kuntal Sarkar, back to top">
+      <span class="mark-k">K</span><span class="mark-s">S</span>
+    </a>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="#impact">Impact</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact" class="nav-cta">Get in touch</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <p class="status"><span class="pulse" aria-hidden="true"></span>Software Engineer at Sarcon, Malda, India</p>
+        <h1 class="name">
+          <span class="name-line">Kuntal</span>
+          <span class="name-line">Sarkar</span>
+        </h1>
+        <p class="lede">I build AI agents that set up and run large events, plus the platform under them. Teams at Amazon, Microsoft and IBM use it.</p>
+        <p class="sub">4+ years shipping Laravel, React and Python in production: agentic workflows on the Claude API, face-recognition check-in, and pages that load fast with 10,000 people on them.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="mailto:hello@kuntalsarkar.in">Email me</a>
+          <a class="btn btn-ghost" href="#work">See the work</a>
+        </div>
+      </div>
+
+      <figure class="console" aria-label="Replay of the event operations agent handling a setup request">
+        <div class="console-bar">
+          <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span class="console-title">event-os agent</span>
+          <span class="console-tools"><b>117</b> tools available</span>
+        </div>
+        <div class="console-body" id="console" aria-live="off">
+          <noscript>
+            <p class="msg user">Set up the Global Partner Summit for 10,000 attendees with face check-in.</p>
+            <p class="msg agent">Done. Event, registration, badges and check-in are live.</p>
+          </noscript>
+        </div>
+        <figcaption class="console-foot">
+          <span>Replay of the agentic operations platform I architected at Sarcon</span>
+          <button class="replay" id="replay" type="button" hidden>Replay</button>
+        </figcaption>
+      </figure>
+    </section>
+
+    <!-- CLIENTS -->
+    <section class="clients" aria-label="Enterprise clients served by the platform">
+      <p>Platform used by event teams at</p>
+      <ul>
+        <li>Amazon</li><li>Microsoft</li><li>IBM</li><li>MCI</li><li>George P. Johnson</li>
+      </ul>
+    </section>
+
+    <!-- IMPACT -->
+    <section class="impact" id="impact" aria-labelledby="impact-h">
+      <div class="section-head">
+        <h2 id="impact-h">Before and after</h2>
+        <p>Three things I made faster at Sarcon. Each grey bar is how long it used to take; the gold bar is how long it takes now.</p>
+      </div>
+
+      <ol class="bars">
+        <li class="bar" style="--after: .006">
+          <div class="bar-label">
+            <h3>Badge design</h3>
+            <p>AI design system that generates event badges from a brief</p>
+          </div>
+          <div class="bar-track" role="img" aria-label="From 2 weeks to under 2 hours">
+            <span class="bar-before"><span>2 weeks</span></span>
+            <span class="bar-after"></span>
+          </div>
+          <div class="bar-result"><strong>&lt; 2 hours</strong><span>168× faster</span></div>
+        </li>
+        <li class="bar" style="--after: .056">
+          <div class="bar-label">
+            <h3>Attendee check-in</h3>
+            <p>Face recognition that works with masks, glasses and low light</p>
+          </div>
+          <div class="bar-track" role="img" aria-label="From 90 seconds to under 5 seconds">
+            <span class="bar-before"><span>90 s</span></span>
+            <span class="bar-after"></span>
+          </div>
+          <div class="bar-result"><strong>&lt; 5 s</strong><span>18× faster</span></div>
+        </li>
+        <li class="bar" style="--after: .262">
+          <div class="bar-label">
+            <h3>Page load</h3>
+            <p>Redis caching and query work for events with 10,000+ attendees</p>
+          </div>
+          <div class="bar-track" role="img" aria-label="From 4.2 seconds to 1.1 seconds">
+            <span class="bar-before"><span>4.2 s</span></span>
+            <span class="bar-after"></span>
+          </div>
+          <div class="bar-result"><strong>1.1 s</strong><span>3.8× faster</span></div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- WORK -->
+    <section class="work" id="work" aria-labelledby="work-h">
+      <div class="section-head">
+        <h2 id="work-h">What I build at Sarcon</h2>
+        <p>Sarcon makes software for in-person, hybrid and virtual events: registration, apps, on-site check-in. I've been there since 2021, starting as an intern.</p>
+      </div>
+
+      <article class="feature">
+        <div class="feature-copy">
+          <h3>Agentic AI operations platform</h3>
+          <p>An agent that runs event operations through conversation. Organisers ask in plain language, and it updates speakers, adds conditional registration fields and edits badges. Setup that used to take weeks now takes minutes.</p>
+          <ul class="facts">
+            <li><strong>117+</strong> tools, picked per request by vector-based routing</li>
+            <li><strong>Memory</strong> across the conversation, plus multi-step reasoning</li>
+            <li><strong>Guardrails</strong>: domain-aware tools refuse destructive actions</li>
+          </ul>
+          <p class="stack">Claude API, Laravel, PostgreSQL, Redis</p>
+        </div>
+        <div class="loop" aria-label="Agent loop: understand, route, act, observe and correct">
+          <svg viewBox="0 0 320 320" aria-hidden="true">
+            <defs>
+              <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#6EE7F9" />
+                <stop offset="1" stop-color="#9B8CFF" />
+              </linearGradient>
+            </defs>
+            <circle cx="160" cy="160" r="118" fill="none" stroke="rgba(238,240,250,.08)" stroke-width="2" />
+            <circle class="loop-ring" cx="160" cy="160" r="118" fill="none" stroke="url(#ring)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="190 552" />
+          </svg>
+          <ol>
+            <li style="--i:0"><span>Understand</span><small>intent and context</small></li>
+            <li style="--i:1"><span>Route</span><small>to the right tools</small></li>
+            <li style="--i:2"><span>Act</span><small>with guardrails</small></li>
+            <li style="--i:3"><span>Observe</span><small>and self-correct</small></li>
+          </ol>
+          <p class="loop-core">117<small>tools</small></p>
+        </div>
+      </article>
+
+      <div class="more-work">
+        <article>
+          <h3>Face recognition check-in</h3>
+          <p>Touchless entry in under a second per face. It also tracks zones and sessions, counts meals and giveaways, and catches ticket fraud.</p>
+          <p class="stack">Python, computer vision</p>
+        </article>
+        <article>
+          <h3>Virtual event ecosystem</h3>
+          <p>3D booths, networking and conference tools, so remote attendees can walk the floor and talk to exhibitors.</p>
+          <p class="stack">React, Three.js, WebRTC</p>
+        </article>
+        <article>
+          <h3>Payments and pricing</h3>
+          <p>Integrations with several payment providers, a pricing engine and coupons for ticketing at enterprise scale.</p>
+          <p class="stack">Laravel, PostgreSQL</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="career" aria-labelledby="career-h">
+      <div class="section-head">
+        <h2 id="career-h">Experience</h2>
+      </div>
+      <ol class="timeline">
+        <li class="now">
+          <time>Jul 2022 – now</time>
+          <div>
+            <h3>Software Engineer, Sarcon</h3>
+            <p>AI agents, computer vision, performance and payments for an event-tech SaaS platform.</p>
+          </div>
+        </li>
+        <li>
+          <time>Dec 2021 – Jun 2022</time>
+          <div>
+            <h3>Software Developer Intern, Sarcon</h3>
+            <p>Laravel and front-end work on the core events platform.</p>
+          </div>
+        </li>
+        <li>
+          <time>Aug – Dec 2021</time>
+          <div>
+            <h3>Full Stack Developer, Code Uplers</h3>
+            <p>Freelance React and front-end builds for client projects.</p>
+          </div>
+        </li>
+        <li>
+          <time>Jan – Mar 2021</time>
+          <div>
+            <h3>Web Developer Intern, Shining Tomorrow Foundation</h3>
+            <p>Built a quiz portal with several question types. Received the SHINER Award.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects" id="projects" aria-labelledby="projects-h">
+      <div class="section-head">
+        <h2 id="projects-h">Side projects</h2>
+        <p>Things I've built and open-sourced on my own time.</p>
+      </div>
+      <ul class="project-grid">
+        <li class="project wide">
+          <img src="assets/images/project-downtimealert.png" alt="" width="56" height="56" loading="lazy" />
+          <h3>Downtime Alert</h3>
+          <p>Watches your websites. Alerts you when one goes down and before its SSL certificate or domain expires.</p>
+          <p class="stack">JavaScript</p>
+          <p class="links"><a href="https://downtime-alert.web.app/">Live site</a><a href="https://github.com/kuntal811/downtimeAlert">Source</a></p>
+        </li>
+        <li class="project wide">
+          <span class="glyph" aria-hidden="true">{ }</span>
+          <h3>flutter_papertrail_alt</h3>
+          <p>Flutter package for detailed logging and real-time monitoring through Papertrail. Published on pub.dev.</p>
+          <p class="stack">Flutter, Kotlin</p>
+          <p class="links"><a href="https://pub.dev/packages/flutter_papertrail_alt">pub.dev</a><a href="https://github.com/kuntal811/flutter_papertrail_alt">Source</a></p>
+        </li>
+        <li class="project">
+          <img src="assets/images/project-automatic_attendance.png" alt="" width="56" height="56" loading="lazy" />
+          <h3>Automatic Attendance</h3>
+          <p>Marks attendance from a photo or video using face recognition.</p>
+          <p class="stack">Python, Eel</p>
+          <p class="links"><a href="https://github.com/kuntal811/automatic-attendance-using-face-recognition">Source</a></p>
+        </li>
+        <li class="project">
+          <img src="assets/images/project-ks_meet.png" alt="" width="56" height="56" loading="lazy" />
+          <h3>KS Meet</h3>
+          <p>Video chat in the browser, with screen sharing.</p>
+          <p class="stack">JavaScript, PeerJS</p>
+          <p class="links"><a href="https://github.com/kuntal811/KSMeet-Video-Chat">Source</a></p>
+        </li>
+        <li class="project">
+          <img src="assets/images/project-easyresume.png" alt="" width="56" height="56" loading="lazy" />
+          <h3>Easy Resume</h3>
+          <p>Android app for making a good-looking resume.</p>
+          <p class="stack">React Native</p>
+          <p class="links"><a href="https://github.com/kuntal811/Easy-Resume">Source</a></p>
+        </li>
+        <li class="project">
+          <span class="glyph" aria-hidden="true">MVC</span>
+          <h3>PHP MVC Framework</h3>
+          <p>A small MVC framework written from scratch in PHP.</p>
+          <p class="stack">PHP</p>
+          <p class="links"><a href="https://github.com/kuntal811/PHP-MVC-Framework">Source</a></p>
+        </li>
+        <li class="project">
+          <img src="assets/images/project-easycompress.png" alt="" width="56" height="56" loading="lazy" />
+          <h3>EasyCompress</h3>
+          <p>Upload a photo and compress it with one slider.</p>
+          <p class="stack">PHP</p>
+          <p class="links"><a href="https://github.com/kuntal811/easycompress">Source</a></p>
+        </li>
+        <li class="project">
+          <span class="glyph" aria-hidden="true">N24</span>
+          <h3>News24</h3>
+          <p>A news reader app built on NewsAPI.</p>
+          <p class="stack">Flutter</p>
+          <p class="links"><a href="https://github.com/kuntal811/news24">Source</a></p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- SKILLS + ABOUT -->
+    <section class="about" aria-labelledby="about-h">
+      <div class="about-person">
+        <img class="portrait" src="assets/images/profile-photo.jpeg" alt="Portrait of Kuntal Sarkar" width="400" height="400" loading="lazy" />
+        <div>
+          <h2 id="about-h">About me</h2>
+          <p>I have an MCA from Pondicherry University (2022) and a B.Sc. in Computer Science from Malda College (2020). My final-year project was a face-recognition attendance system, and I've been building things that see, reason and scale ever since.</p>
+          <p>I speak Bengali, English and Hindi.</p>
+        </div>
+      </div>
+
+      <div class="toolkit">
+        <h3>Toolkit</h3>
+        <dl>
+          <div><dt>AI and LLMs</dt><dd>Claude API, AI agents, multi-agent systems, tool routing, conversation memory, computer vision</dd></div>
+          <div><dt>Backend</dt><dd>Laravel, PHP, Python, CodeIgniter, Java, REST APIs, payment integrations</dd></div>
+          <div><dt>Frontend</dt><dd>React, JavaScript, Three.js, WebRTC, HTML, CSS</dd></div>
+          <div><dt>Mobile</dt><dd>Flutter, Dart, React Native, Kotlin</dd></div>
+          <div><dt>Data and infra</dt><dd>PostgreSQL, MySQL, Redis, Linux, Git</dd></div>
+        </dl>
+      </div>
+
+      <div class="recognition">
+        <h3>Recognition</h3>
+        <ul>
+          <li><strong>SHINER Award</strong>Shining Tomorrow Foundation, 2021</li>
+          <li><strong>JavaScript Algorithms and Data Structures</strong>freeCodeCamp, 2021</li>
+          <li><strong>Java Programming</strong>Udemy, 2021</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact" aria-labelledby="contact-h">
+      <h2 id="contact-h">Let's build something that thinks.</h2>
+      <p>Hiring for AI or platform engineering, or have a hard problem in mind? Send me an email.</p>
+      <a class="email" href="mailto:hello@kuntalsarkar.in">hello@kuntalsarkar.in</a>
+      <ul class="socials">
+        <li><a href="https://www.linkedin.com/in/kuntal811">LinkedIn</a></li>
+        <li><a href="https://github.com/kuntal811">GitHub</a></li>
+        <li><a href="https://twitter.com/kuntal811">X / Twitter</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year">2026</span> Kuntal Sarkar</p>
+    <a href="#top">Back to top</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
